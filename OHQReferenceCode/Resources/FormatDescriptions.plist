@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Reserved</string>
+	<string>boolean</string>
+	<string>2bit</string>
+	<string>nibble</string>
+	<string>uint8</string>
+	<string>uint12</string>
+	<string>uint16</string>
+	<string>uint24</string>
+	<string>uint32</string>
+	<string>uint48</string>
+	<string>uint64</string>
+	<string>uint128</string>
+	<string>sint8</string>
+	<string>sint12</string>
+	<string>sint16</string>
+	<string>sint24</string>
+	<string>sint32</string>
+	<string>sint48</string>
+	<string>sint64</string>
+	<string>sint128</string>
+	<string>float32</string>
+	<string>float64</string>
+	<string>SFLOAT</string>
+	<string>FLOAT</string>
+	<string>duint16</string>
+	<string>utf8s</string>
+	<string>utf16s</string>
+	<string>struct</string>
+</array>
+</plist>

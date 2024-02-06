@@ -1,0 +1,1044 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		248BC4C9267B166A004AE792 /* BSOPulseOximeterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 248BC4C7267B166A004AE792 /* BSOPulseOximeterCollectionViewCell.xib */; };
+		24F15349267B199000DAA501 /* BSOThermometerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F15347267B199000DAA501 /* BSOThermometerCollectionViewCell.xib */; };
+		24F1534C267B1A1E00DAA501 /* BSOThermometerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F1534A267B1A1D00DAA501 /* BSOThermometerCollectionViewCell.m */; };
+		65C28C5C2B07E80E00E118AE /* ZipArchive in Frameworks */ = {isa = PBXBuildFile; productRef = 65C28C5B2B07E80E00E118AE /* ZipArchive */; };
+		761EE9B225B902E10046AC39 /* BSOHistoryEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 761EE9B025B902E10046AC39 /* BSOHistoryEntity+CoreDataProperties.m */; };
+		7660322C25AFE0ED002D123F /* BSOPulseOximeterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7660322A25AFE0ED002D123F /* BSOPulseOximeterCollectionViewCell.m */; };
+		76B363A425AD588200002188 /* BSOLogZipUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B363A325AD588200002188 /* BSOLogZipUtils.m */; };
+		AEBF9EBA256777CA0036F7F6 /* BSOBluetoothCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBF9EB9256777CA0036F7F6 /* BSOBluetoothCheckViewController.m */; };
+		E2055FD6200DADAC00EB5816 /* CBUUID+Description.m in Sources */ = {isa = PBXBuildFile; fileRef = E2055FD5200DADAC00EB5816 /* CBUUID+Description.m */; };
+		E2055FE3200DB02100EB5816 /* OHQState.m in Sources */ = {isa = PBXBuildFile; fileRef = E2055FE0200DB02100EB5816 /* OHQState.m */; };
+		E2055FE4200DB02100EB5816 /* OHQStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = E2055FE2200DB02100EB5816 /* OHQStateMachine.m */; };
+		E2055FF0200DB0A900EB5816 /* OHQDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = E2055FE7200DB0A900EB5816 /* OHQDefines.m */; };
+		E2055FF1200DB0A900EB5816 /* OHQDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = E2055FE9200DB0A900EB5816 /* OHQDevice.m */; };
+		E2055FF2200DB0A900EB5816 /* OHQDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2055FEB200DB0A900EB5816 /* OHQDeviceManager.m */; };
+		E2055FF3200DB0A900EB5816 /* OHQLog.m in Sources */ = {isa = PBXBuildFile; fileRef = E2055FED200DB0A900EB5816 /* OHQLog.m */; };
+		E2055FF4200DB0A900EB5816 /* OHQLogStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E2055FEF200DB0A900EB5816 /* OHQLogStore.m */; };
+		E2123D801F58EF4F0035AE0C /* BSOTableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2123D7F1F58EF4F0035AE0C /* BSOTableViewHeaderView.m */; };
+		E2123D831F58EF6C0035AE0C /* BSOTableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2123D811F58EF6C0035AE0C /* BSOTableViewHeaderView.xib */; };
+		E21984BE1F4D760200972F4D /* BSODiscoveredDeviceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E21984B71F4D760200972F4D /* BSODiscoveredDeviceCell.m */; };
+		E21984BF1F4D760200972F4D /* BSOHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E21984B91F4D760200972F4D /* BSOHistoryCell.m */; };
+		E21984C01F4D760200972F4D /* BSORegisteredDeviceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E21984BB1F4D760200972F4D /* BSORegisteredDeviceCell.m */; };
+		E21984C11F4D760200972F4D /* BSOUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E21984BD1F4D760200972F4D /* BSOUserCell.m */; };
+		E22115591F559BC200D388F5 /* BSOHistoryEntity+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E22115561F559BC200D388F5 /* BSOHistoryEntity+CoreDataClass.m */; };
+		E221155A1F559BC200D388F5 /* BSOHistoryEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E22115581F559BC200D388F5 /* BSOHistoryEntity+CoreDataProperties.m */; };
+		E22150CF1F29BBFF00531832 /* CompanyNames.plist in Resources */ = {isa = PBXBuildFile; fileRef = E22150CC1F29BBFF00531832 /* CompanyNames.plist */; };
+		E22150D01F29BBFF00531832 /* FormatDescriptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = E22150CD1F29BBFF00531832 /* FormatDescriptions.plist */; };
+		E22150D11F29BBFF00531832 /* UUIDDescriptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = E22150CE1F29BBFF00531832 /* UUIDDescriptions.plist */; };
+		E22DD4131F3AF5570031AEC3 /* BleSampleOmron.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E22DD4081F3AF5570031AEC3 /* BleSampleOmron.xcdatamodeld */; };
+		E22DD4171F3AF5570031AEC3 /* BSOPersistentContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = E22DD4111F3AF5570031AEC3 /* BSOPersistentContainer.m */; };
+		E22DD4211F3AF6FC0031AEC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22DD41A1F3AF6FC0031AEC3 /* Assets.xcassets */; };
+		E22DD4221F3AF6FC0031AEC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22DD41B1F3AF6FC0031AEC3 /* LaunchScreen.storyboard */; };
+		E22DD4231F3AF6FC0031AEC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22DD41D1F3AF6FC0031AEC3 /* Main.storyboard */; };
+		E22DD4261F3AF79C0031AEC3 /* DefaultUserProfiles.plist in Resources */ = {isa = PBXBuildFile; fileRef = E22DD4251F3AF79C0031AEC3 /* DefaultUserProfiles.plist */; };
+		E22DD42E1F3C4B6E0031AEC3 /* DefaultAppConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = E22DD42D1F3C4B6E0031AEC3 /* DefaultAppConfig.plist */; };
+		E25AFCE11F540F830080FDF1 /* BSOBloodPressureCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E25AFCD91F540F830080FDF1 /* BSOBloodPressureCollectionViewCell.xib */; };
+		E25AFCE31F540F830080FDF1 /* BSOBodyCompositionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E25AFCDD1F540F830080FDF1 /* BSOBodyCompositionCollectionViewCell.xib */; };
+		E25AFCE41F540F830080FDF1 /* BSOWeightCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E25AFCDF1F540F830080FDF1 /* BSOWeightCollectionViewCell.xib */; };
+		E25AFCF11F541E2D0080FDF1 /* BSOBloodPressureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AFCEC1F541E2D0080FDF1 /* BSOBloodPressureCollectionViewCell.m */; };
+		E25AFCF21F541E2D0080FDF1 /* BSOBodyCompositionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AFCEE1F541E2D0080FDF1 /* BSOBodyCompositionCollectionViewCell.m */; };
+		E25AFCF31F541E2D0080FDF1 /* BSOWeightCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AFCF01F541E2D0080FDF1 /* BSOWeightCollectionViewCell.m */; };
+		E25AFCF91F5427C10080FDF1 /* BSODeviceInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AFCF81F5427C10080FDF1 /* BSODeviceInfoCell.m */; };
+		E25AFCFC1F5431650080FDF1 /* BSOMeasurementsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AFCFB1F5431650080FDF1 /* BSOMeasurementsCell.m */; };
+		E27E036E200C8A480024B4A5 /* NSDate+BleSampleOmron.m in Sources */ = {isa = PBXBuildFile; fileRef = E27E036B200C8A480024B4A5 /* NSDate+BleSampleOmron.m */; };
+		E27E036F200C8A480024B4A5 /* UIColor+BleSampleOmron.m in Sources */ = {isa = PBXBuildFile; fileRef = E27E036D200C8A480024B4A5 /* UIColor+BleSampleOmron.m */; };
+		E27E037E200C8B9D0024B4A5 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = E27E0373200C8B9D0024B4A5 /* RECommonFunctions.m */; };
+		E27E037F200C8B9D0024B4A5 /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27E0375200C8B9D0024B4A5 /* REFrostedContainerViewController.m */; };
+		E27E0380200C8B9D0024B4A5 /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27E0377200C8B9D0024B4A5 /* REFrostedViewController.m */; };
+		E27E0381200C8B9D0024B4A5 /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27E0379200C8B9D0024B4A5 /* UIImage+REFrostedViewController.m */; };
+		E27E0382200C8B9D0024B4A5 /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27E037B200C8B9D0024B4A5 /* UIView+REFrostedViewController.m */; };
+		E27E0383200C8B9D0024B4A5 /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27E037D200C8B9D0024B4A5 /* UIViewController+REFrostedViewController.m */; };
+		E2ACC8CA1DB0971100D3601F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2ACC8C91DB0971100D3601F /* main.m */; };
+		E2ACC8CD1DB0971100D3601F /* BSOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2ACC8CC1DB0971100D3601F /* BSOAppDelegate.m */; };
+		E2BA7EC11F4BF0AD004A7E39 /* BSOUserEntity+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BA7EBA1F4BF0AD004A7E39 /* BSOUserEntity+CoreDataClass.m */; };
+		E2BA7EC21F4BF0AD004A7E39 /* BSOUserEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BA7EBC1F4BF0AD004A7E39 /* BSOUserEntity+CoreDataProperties.m */; };
+		E2BA7EC31F4BF0AD004A7E39 /* BSODeviceEntity+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BA7EBE1F4BF0AD004A7E39 /* BSODeviceEntity+CoreDataClass.m */; };
+		E2BA7EC41F4BF0AD004A7E39 /* BSODeviceEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BA7EC01F4BF0AD004A7E39 /* BSODeviceEntity+CoreDataProperties.m */; };
+		E2BCDA70200C97EE00C0EE4C /* BSOSessionData.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDA6F200C97EE00C0EE4C /* BSOSessionData.m */; };
+		E2BCDAA5200C9C2E00C0EE4C /* BSOAcknowledgementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDA7C200C9C2E00C0EE4C /* BSOAcknowledgementsViewController.m */; };
+		E2BCDAA6200C9C2E00C0EE4C /* BSOAdvertisementDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDA7E200C9C2E00C0EE4C /* BSOAdvertisementDataViewController.m */; };
+		E2BCDAA7200C9C2E00C0EE4C /* BSODeviceRegistrationNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDA80200C9C2E00C0EE4C /* BSODeviceRegistrationNavigationController.m */; };
+		E2BCDAA8200C9C2E00C0EE4C /* BSODeviceSelectionNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDA82200C9C2E00C0EE4C /* BSODeviceSelectionNavigationController.m */; };
+		E2BCDAA9200C9C2E00C0EE4C /* BSODiscoveredDeviceSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDA84200C9C2E00C0EE4C /* BSODiscoveredDeviceSelectionViewController.m */; };
+		E2BCDAAA200C9C2E00C0EE4C /* BSODrawerMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDA86200C9C2E00C0EE4C /* BSODrawerMenuViewController.m */; };
+		E2BCDAAB200C9C2E00C0EE4C /* BSOGenderSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDA88200C9C2E00C0EE4C /* BSOGenderSelectionViewController.m */; };
+		E2BCDAAC200C9C2E00C0EE4C /* BSOGuestUserHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDA8A200C9C2E00C0EE4C /* BSOGuestUserHomeViewController.m */; };
+		E2BCDAAD200C9C2E00C0EE4C /* BSOHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDA8C200C9C2E00C0EE4C /* BSOHistoryViewController.m */; };
+		E2BCDAAE200C9C2E00C0EE4C /* BSOLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDA8E200C9C2E00C0EE4C /* BSOLogViewController.m */; };
+		E2BCDAAF200C9C2E00C0EE4C /* BSOMeasurementRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDA90200C9C2E00C0EE4C /* BSOMeasurementRecordViewController.m */; };
+		E2BCDAB0200C9C2E00C0EE4C /* BSOProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDA92200C9C2E00C0EE4C /* BSOProfileViewController.m */; };
+		E2BCDAB1200C9C2E00C0EE4C /* BSORegisteredDeviceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDA94200C9C2E00C0EE4C /* BSORegisteredDeviceDetailViewController.m */; };
+		E2BCDAB2200C9C2E00C0EE4C /* BSORegistrationOptionsSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDA96200C9C2E00C0EE4C /* BSORegistrationOptionsSelectionViewController.m */; };
+		E2BCDAB3200C9C2E00C0EE4C /* BSORootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDA98200C9C2E00C0EE4C /* BSORootNavigationController.m */; };
+		E2BCDAB4200C9C2E00C0EE4C /* BSOSessionResultNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDA9A200C9C2E00C0EE4C /* BSOSessionResultNavigationController.m */; };
+		E2BCDAB5200C9C2E00C0EE4C /* BSOSessionResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDA9C200C9C2E00C0EE4C /* BSOSessionResultViewController.m */; };
+		E2BCDAB6200C9C2E00C0EE4C /* BSOSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDA9E200C9C2E00C0EE4C /* BSOSessionViewController.m */; };
+		E2BCDAB7200C9C2E00C0EE4C /* BSOSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDAA0200C9C2E00C0EE4C /* BSOSettingsViewController.m */; };
+		E2BCDAB8200C9C2E00C0EE4C /* BSOUserHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDAA2200C9C2E00C0EE4C /* BSOUserHomeViewController.m */; };
+		E2BCDAB9200C9C2E00C0EE4C /* BSOUserSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDAA4200C9C2E00C0EE4C /* BSOUserSelectionViewController.m */; };
+		E2C67B3E1F2EF5D70016CCA8 /* BSODefines.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C67B3D1F2EF5D70016CCA8 /* BSODefines.m */; };
+		FD59CBFA56CBC01EDBF1654E /* Pods_BleSampleOmron.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EDD8D96E6F6774CF211B524 /* Pods_BleSampleOmron.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		248BC4C8267B166A004AE792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/BSOPulseOximeterCollectionViewCell.xib; sourceTree = "<group>"; };
+		24F15348267B199000DAA501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/BSOThermometerCollectionViewCell.xib; sourceTree = "<group>"; };
+		24F1534A267B1A1D00DAA501 /* BSOThermometerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOThermometerCollectionViewCell.m; sourceTree = "<group>"; };
+		24F1534B267B1A1E00DAA501 /* BSOThermometerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOThermometerCollectionViewCell.h; sourceTree = "<group>"; };
+		39A80439E69006719AD4A504 /* Pods-BleSampleOmron.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BleSampleOmron.debug.xcconfig"; path = "Target Support Files/Pods-BleSampleOmron/Pods-BleSampleOmron.debug.xcconfig"; sourceTree = "<group>"; };
+		56094A886BE6C0649EFDF557 /* Pods-BleSampleOmron.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BleSampleOmron.release.xcconfig"; path = "Target Support Files/Pods-BleSampleOmron/Pods-BleSampleOmron.release.xcconfig"; sourceTree = "<group>"; };
+		5EDD8D96E6F6774CF211B524 /* Pods_BleSampleOmron.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BleSampleOmron.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		761EE9AA25B901480046AC39 /* BleSampleOmron 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "BleSampleOmron 2.xcdatamodel"; sourceTree = "<group>"; };
+		761EE9B025B902E10046AC39 /* BSOHistoryEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BSOHistoryEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		761EE9B125B902E10046AC39 /* BSOHistoryEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BSOHistoryEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		7660322925AFE0ED002D123F /* BSOPulseOximeterCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSOPulseOximeterCollectionViewCell.h; sourceTree = "<group>"; };
+		7660322A25AFE0ED002D123F /* BSOPulseOximeterCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSOPulseOximeterCollectionViewCell.m; sourceTree = "<group>"; };
+		76B363A225AD588200002188 /* BSOLogZipUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSOLogZipUtils.h; sourceTree = "<group>"; };
+		76B363A325AD588200002188 /* BSOLogZipUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSOLogZipUtils.m; sourceTree = "<group>"; };
+		AEBF9EB3256777780036F7F6 /* BSOBluetoothCheckViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSOBluetoothCheckViewController.h; sourceTree = "<group>"; };
+		AEBF9EB9256777CA0036F7F6 /* BSOBluetoothCheckViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSOBluetoothCheckViewController.m; sourceTree = "<group>"; };
+		E2055FD4200DADAC00EB5816 /* CBUUID+Description.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBUUID+Description.h"; sourceTree = "<group>"; };
+		E2055FD5200DADAC00EB5816 /* CBUUID+Description.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBUUID+Description.m"; sourceTree = "<group>"; };
+		E2055FDF200DB02100EB5816 /* OHQState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHQState.h; sourceTree = "<group>"; };
+		E2055FE0200DB02100EB5816 /* OHQState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHQState.m; sourceTree = "<group>"; };
+		E2055FE1200DB02100EB5816 /* OHQStateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHQStateMachine.h; sourceTree = "<group>"; };
+		E2055FE2200DB02100EB5816 /* OHQStateMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHQStateMachine.m; sourceTree = "<group>"; };
+		E2055FE6200DB0A900EB5816 /* OHQDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHQDefines.h; sourceTree = "<group>"; };
+		E2055FE7200DB0A900EB5816 /* OHQDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHQDefines.m; sourceTree = "<group>"; };
+		E2055FE8200DB0A900EB5816 /* OHQDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHQDevice.h; sourceTree = "<group>"; };
+		E2055FE9200DB0A900EB5816 /* OHQDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHQDevice.m; sourceTree = "<group>"; };
+		E2055FEA200DB0A900EB5816 /* OHQDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHQDeviceManager.h; sourceTree = "<group>"; };
+		E2055FEB200DB0A900EB5816 /* OHQDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHQDeviceManager.m; sourceTree = "<group>"; };
+		E2055FEC200DB0A900EB5816 /* OHQLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHQLog.h; sourceTree = "<group>"; };
+		E2055FED200DB0A900EB5816 /* OHQLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHQLog.m; sourceTree = "<group>"; };
+		E2055FEE200DB0A900EB5816 /* OHQLogStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHQLogStore.h; sourceTree = "<group>"; };
+		E2055FEF200DB0A900EB5816 /* OHQLogStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHQLogStore.m; sourceTree = "<group>"; };
+		E2123D7E1F58EF4F0035AE0C /* BSOTableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOTableViewHeaderView.h; sourceTree = "<group>"; };
+		E2123D7F1F58EF4F0035AE0C /* BSOTableViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOTableViewHeaderView.m; sourceTree = "<group>"; };
+		E2123D821F58EF6C0035AE0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/BSOTableViewHeaderView.xib; sourceTree = "<group>"; };
+		E21984B61F4D760200972F4D /* BSODiscoveredDeviceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSODiscoveredDeviceCell.h; sourceTree = "<group>"; };
+		E21984B71F4D760200972F4D /* BSODiscoveredDeviceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSODiscoveredDeviceCell.m; sourceTree = "<group>"; };
+		E21984B81F4D760200972F4D /* BSOHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOHistoryCell.h; sourceTree = "<group>"; };
+		E21984B91F4D760200972F4D /* BSOHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOHistoryCell.m; sourceTree = "<group>"; };
+		E21984BA1F4D760200972F4D /* BSORegisteredDeviceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSORegisteredDeviceCell.h; sourceTree = "<group>"; };
+		E21984BB1F4D760200972F4D /* BSORegisteredDeviceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSORegisteredDeviceCell.m; sourceTree = "<group>"; };
+		E21984BC1F4D760200972F4D /* BSOUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOUserCell.h; sourceTree = "<group>"; };
+		E21984BD1F4D760200972F4D /* BSOUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOUserCell.m; sourceTree = "<group>"; };
+		E22115551F559BC200D388F5 /* BSOHistoryEntity+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BSOHistoryEntity+CoreDataClass.h"; sourceTree = "<group>"; };
+		E22115561F559BC200D388F5 /* BSOHistoryEntity+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BSOHistoryEntity+CoreDataClass.m"; sourceTree = "<group>"; };
+		E22115571F559BC200D388F5 /* BSOHistoryEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BSOHistoryEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E22115581F559BC200D388F5 /* BSOHistoryEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BSOHistoryEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E22150BD1F29BA5200531832 /* OHQReferenceCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHQReferenceCode.h; sourceTree = "<group>"; };
+		E22150CC1F29BBFF00531832 /* CompanyNames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CompanyNames.plist; sourceTree = "<group>"; };
+		E22150CD1F29BBFF00531832 /* FormatDescriptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FormatDescriptions.plist; sourceTree = "<group>"; };
+		E22150CE1F29BBFF00531832 /* UUIDDescriptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UUIDDescriptions.plist; sourceTree = "<group>"; };
+		E22DD4091F3AF5570031AEC3 /* BleSampleOmron.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BleSampleOmron.xcdatamodel; sourceTree = "<group>"; };
+		E22DD4101F3AF5570031AEC3 /* BSOPersistentContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOPersistentContainer.h; sourceTree = "<group>"; };
+		E22DD4111F3AF5570031AEC3 /* BSOPersistentContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOPersistentContainer.m; sourceTree = "<group>"; };
+		E22DD41A1F3AF6FC0031AEC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E22DD41C1F3AF6FC0031AEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E22DD41E1F3AF6FC0031AEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E22DD4251F3AF79C0031AEC3 /* DefaultUserProfiles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultUserProfiles.plist; sourceTree = "<group>"; };
+		E22DD42D1F3C4B6E0031AEC3 /* DefaultAppConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultAppConfig.plist; sourceTree = "<group>"; };
+		E25AFCDA1F540F830080FDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/BSOBloodPressureCollectionViewCell.xib; sourceTree = "<group>"; };
+		E25AFCDE1F540F830080FDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/BSOBodyCompositionCollectionViewCell.xib; sourceTree = "<group>"; };
+		E25AFCE01F540F830080FDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/BSOWeightCollectionViewCell.xib; sourceTree = "<group>"; };
+		E25AFCEB1F541E2D0080FDF1 /* BSOBloodPressureCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOBloodPressureCollectionViewCell.h; sourceTree = "<group>"; };
+		E25AFCEC1F541E2D0080FDF1 /* BSOBloodPressureCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOBloodPressureCollectionViewCell.m; sourceTree = "<group>"; };
+		E25AFCED1F541E2D0080FDF1 /* BSOBodyCompositionCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOBodyCompositionCollectionViewCell.h; sourceTree = "<group>"; };
+		E25AFCEE1F541E2D0080FDF1 /* BSOBodyCompositionCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOBodyCompositionCollectionViewCell.m; sourceTree = "<group>"; };
+		E25AFCEF1F541E2D0080FDF1 /* BSOWeightCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOWeightCollectionViewCell.h; sourceTree = "<group>"; };
+		E25AFCF01F541E2D0080FDF1 /* BSOWeightCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOWeightCollectionViewCell.m; sourceTree = "<group>"; };
+		E25AFCF71F5427C10080FDF1 /* BSODeviceInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSODeviceInfoCell.h; sourceTree = "<group>"; };
+		E25AFCF81F5427C10080FDF1 /* BSODeviceInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSODeviceInfoCell.m; sourceTree = "<group>"; };
+		E25AFCFA1F5431650080FDF1 /* BSOMeasurementsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOMeasurementsCell.h; sourceTree = "<group>"; };
+		E25AFCFB1F5431650080FDF1 /* BSOMeasurementsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOMeasurementsCell.m; sourceTree = "<group>"; };
+		E27E036A200C8A480024B4A5 /* NSDate+BleSampleOmron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BleSampleOmron.h"; sourceTree = "<group>"; };
+		E27E036B200C8A480024B4A5 /* NSDate+BleSampleOmron.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BleSampleOmron.m"; sourceTree = "<group>"; };
+		E27E036C200C8A480024B4A5 /* UIColor+BleSampleOmron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BleSampleOmron.h"; sourceTree = "<group>"; };
+		E27E036D200C8A480024B4A5 /* UIColor+BleSampleOmron.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BleSampleOmron.m"; sourceTree = "<group>"; };
+		E27E0372200C8B9D0024B4A5 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		E27E0373200C8B9D0024B4A5 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		E27E0374200C8B9D0024B4A5 /* REFrostedContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedContainerViewController.h; sourceTree = "<group>"; };
+		E27E0375200C8B9D0024B4A5 /* REFrostedContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedContainerViewController.m; sourceTree = "<group>"; };
+		E27E0376200C8B9D0024B4A5 /* REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedViewController.h; sourceTree = "<group>"; };
+		E27E0377200C8B9D0024B4A5 /* REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedViewController.m; sourceTree = "<group>"; };
+		E27E0378200C8B9D0024B4A5 /* UIImage+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+REFrostedViewController.h"; sourceTree = "<group>"; };
+		E27E0379200C8B9D0024B4A5 /* UIImage+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+REFrostedViewController.m"; sourceTree = "<group>"; };
+		E27E037A200C8B9D0024B4A5 /* UIView+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+REFrostedViewController.h"; sourceTree = "<group>"; };
+		E27E037B200C8B9D0024B4A5 /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+REFrostedViewController.m"; sourceTree = "<group>"; };
+		E27E037C200C8B9D0024B4A5 /* UIViewController+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+REFrostedViewController.h"; sourceTree = "<group>"; };
+		E27E037D200C8B9D0024B4A5 /* UIViewController+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+REFrostedViewController.m"; sourceTree = "<group>"; };
+		E2ACC8C51DB0971100D3601F /* BleSampleOmron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BleSampleOmron.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2ACC8C91DB0971100D3601F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2ACC8CB1DB0971100D3601F /* BSOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSOAppDelegate.h; sourceTree = "<group>"; };
+		E2ACC8CC1DB0971100D3601F /* BSOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSOAppDelegate.m; sourceTree = "<group>"; };
+		E2ACC8DC1DB0971100D3601F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2BA7EB91F4BF0AD004A7E39 /* BSOUserEntity+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BSOUserEntity+CoreDataClass.h"; sourceTree = "<group>"; };
+		E2BA7EBA1F4BF0AD004A7E39 /* BSOUserEntity+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BSOUserEntity+CoreDataClass.m"; sourceTree = "<group>"; };
+		E2BA7EBB1F4BF0AD004A7E39 /* BSOUserEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BSOUserEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E2BA7EBC1F4BF0AD004A7E39 /* BSOUserEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BSOUserEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E2BA7EBD1F4BF0AD004A7E39 /* BSODeviceEntity+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BSODeviceEntity+CoreDataClass.h"; sourceTree = "<group>"; };
+		E2BA7EBE1F4BF0AD004A7E39 /* BSODeviceEntity+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BSODeviceEntity+CoreDataClass.m"; sourceTree = "<group>"; };
+		E2BA7EBF1F4BF0AD004A7E39 /* BSODeviceEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BSODeviceEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E2BA7EC01F4BF0AD004A7E39 /* BSODeviceEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BSODeviceEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E2BCDA6E200C97EE00C0EE4C /* BSOSessionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOSessionData.h; sourceTree = "<group>"; };
+		E2BCDA6F200C97EE00C0EE4C /* BSOSessionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOSessionData.m; sourceTree = "<group>"; };
+		E2BCDA7B200C9C2E00C0EE4C /* BSOAcknowledgementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOAcknowledgementsViewController.h; sourceTree = "<group>"; };
+		E2BCDA7C200C9C2E00C0EE4C /* BSOAcknowledgementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOAcknowledgementsViewController.m; sourceTree = "<group>"; };
+		E2BCDA7D200C9C2E00C0EE4C /* BSOAdvertisementDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOAdvertisementDataViewController.h; sourceTree = "<group>"; };
+		E2BCDA7E200C9C2E00C0EE4C /* BSOAdvertisementDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOAdvertisementDataViewController.m; sourceTree = "<group>"; };
+		E2BCDA7F200C9C2E00C0EE4C /* BSODeviceRegistrationNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSODeviceRegistrationNavigationController.h; sourceTree = "<group>"; };
+		E2BCDA80200C9C2E00C0EE4C /* BSODeviceRegistrationNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSODeviceRegistrationNavigationController.m; sourceTree = "<group>"; };
+		E2BCDA81200C9C2E00C0EE4C /* BSODeviceSelectionNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSODeviceSelectionNavigationController.h; sourceTree = "<group>"; };
+		E2BCDA82200C9C2E00C0EE4C /* BSODeviceSelectionNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSODeviceSelectionNavigationController.m; sourceTree = "<group>"; };
+		E2BCDA83200C9C2E00C0EE4C /* BSODiscoveredDeviceSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSODiscoveredDeviceSelectionViewController.h; sourceTree = "<group>"; };
+		E2BCDA84200C9C2E00C0EE4C /* BSODiscoveredDeviceSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSODiscoveredDeviceSelectionViewController.m; sourceTree = "<group>"; };
+		E2BCDA85200C9C2E00C0EE4C /* BSODrawerMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSODrawerMenuViewController.h; sourceTree = "<group>"; };
+		E2BCDA86200C9C2E00C0EE4C /* BSODrawerMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSODrawerMenuViewController.m; sourceTree = "<group>"; };
+		E2BCDA87200C9C2E00C0EE4C /* BSOGenderSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOGenderSelectionViewController.h; sourceTree = "<group>"; };
+		E2BCDA88200C9C2E00C0EE4C /* BSOGenderSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOGenderSelectionViewController.m; sourceTree = "<group>"; };
+		E2BCDA89200C9C2E00C0EE4C /* BSOGuestUserHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOGuestUserHomeViewController.h; sourceTree = "<group>"; };
+		E2BCDA8A200C9C2E00C0EE4C /* BSOGuestUserHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOGuestUserHomeViewController.m; sourceTree = "<group>"; };
+		E2BCDA8B200C9C2E00C0EE4C /* BSOHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOHistoryViewController.h; sourceTree = "<group>"; };
+		E2BCDA8C200C9C2E00C0EE4C /* BSOHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOHistoryViewController.m; sourceTree = "<group>"; };
+		E2BCDA8D200C9C2E00C0EE4C /* BSOLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOLogViewController.h; sourceTree = "<group>"; };
+		E2BCDA8E200C9C2E00C0EE4C /* BSOLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOLogViewController.m; sourceTree = "<group>"; };
+		E2BCDA8F200C9C2E00C0EE4C /* BSOMeasurementRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOMeasurementRecordViewController.h; sourceTree = "<group>"; };
+		E2BCDA90200C9C2E00C0EE4C /* BSOMeasurementRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOMeasurementRecordViewController.m; sourceTree = "<group>"; };
+		E2BCDA91200C9C2E00C0EE4C /* BSOProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOProfileViewController.h; sourceTree = "<group>"; };
+		E2BCDA92200C9C2E00C0EE4C /* BSOProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOProfileViewController.m; sourceTree = "<group>"; };
+		E2BCDA93200C9C2E00C0EE4C /* BSORegisteredDeviceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSORegisteredDeviceDetailViewController.h; sourceTree = "<group>"; };
+		E2BCDA94200C9C2E00C0EE4C /* BSORegisteredDeviceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSORegisteredDeviceDetailViewController.m; sourceTree = "<group>"; };
+		E2BCDA95200C9C2E00C0EE4C /* BSORegistrationOptionsSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSORegistrationOptionsSelectionViewController.h; sourceTree = "<group>"; };
+		E2BCDA96200C9C2E00C0EE4C /* BSORegistrationOptionsSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSORegistrationOptionsSelectionViewController.m; sourceTree = "<group>"; };
+		E2BCDA97200C9C2E00C0EE4C /* BSORootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSORootNavigationController.h; sourceTree = "<group>"; };
+		E2BCDA98200C9C2E00C0EE4C /* BSORootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSORootNavigationController.m; sourceTree = "<group>"; };
+		E2BCDA99200C9C2E00C0EE4C /* BSOSessionResultNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOSessionResultNavigationController.h; sourceTree = "<group>"; };
+		E2BCDA9A200C9C2E00C0EE4C /* BSOSessionResultNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOSessionResultNavigationController.m; sourceTree = "<group>"; };
+		E2BCDA9B200C9C2E00C0EE4C /* BSOSessionResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOSessionResultViewController.h; sourceTree = "<group>"; };
+		E2BCDA9C200C9C2E00C0EE4C /* BSOSessionResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOSessionResultViewController.m; sourceTree = "<group>"; };
+		E2BCDA9D200C9C2E00C0EE4C /* BSOSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOSessionViewController.h; sourceTree = "<group>"; };
+		E2BCDA9E200C9C2E00C0EE4C /* BSOSessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOSessionViewController.m; sourceTree = "<group>"; };
+		E2BCDA9F200C9C2E00C0EE4C /* BSOSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOSettingsViewController.h; sourceTree = "<group>"; };
+		E2BCDAA0200C9C2E00C0EE4C /* BSOSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOSettingsViewController.m; sourceTree = "<group>"; };
+		E2BCDAA1200C9C2E00C0EE4C /* BSOUserHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOUserHomeViewController.h; sourceTree = "<group>"; };
+		E2BCDAA2200C9C2E00C0EE4C /* BSOUserHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOUserHomeViewController.m; sourceTree = "<group>"; };
+		E2BCDAA3200C9C2E00C0EE4C /* BSOUserSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOUserSelectionViewController.h; sourceTree = "<group>"; };
+		E2BCDAA4200C9C2E00C0EE4C /* BSOUserSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOUserSelectionViewController.m; sourceTree = "<group>"; };
+		E2C67B3C1F2EF5D70016CCA8 /* BSODefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSODefines.h; sourceTree = "<group>"; };
+		E2C67B3D1F2EF5D70016CCA8 /* BSODefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSODefines.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2ACC8C21DB0971100D3601F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD59CBFA56CBC01EDBF1654E /* Pods_BleSampleOmron.framework in Frameworks */,
+				65C28C5C2B07E80E00E118AE /* ZipArchive in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76B363A125AD583A00002188 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				76B363A225AD588200002188 /* BSOLogZipUtils.h */,
+				76B363A325AD588200002188 /* BSOLogZipUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A4F975E95BDFE9B7206EA7C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EDD8D96E6F6774CF211B524 /* Pods_BleSampleOmron.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2055FD3200DADAC00EB5816 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E2055FD4200DADAC00EB5816 /* CBUUID+Description.h */,
+				E2055FD5200DADAC00EB5816 /* CBUUID+Description.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E2055FDE200DB02100EB5816 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				E2055FDF200DB02100EB5816 /* OHQState.h */,
+				E2055FE0200DB02100EB5816 /* OHQState.m */,
+				E2055FE1200DB02100EB5816 /* OHQStateMachine.h */,
+				E2055FE2200DB02100EB5816 /* OHQStateMachine.m */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		E2055FE5200DB0A900EB5816 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2055FE6200DB0A900EB5816 /* OHQDefines.h */,
+				E2055FE7200DB0A900EB5816 /* OHQDefines.m */,
+				E2055FEA200DB0A900EB5816 /* OHQDeviceManager.h */,
+				E2055FEB200DB0A900EB5816 /* OHQDeviceManager.m */,
+				E2055FE8200DB0A900EB5816 /* OHQDevice.h */,
+				E2055FE9200DB0A900EB5816 /* OHQDevice.m */,
+				E2055FEE200DB0A900EB5816 /* OHQLogStore.h */,
+				E2055FEF200DB0A900EB5816 /* OHQLogStore.m */,
+				E2055FEC200DB0A900EB5816 /* OHQLog.h */,
+				E2055FED200DB0A900EB5816 /* OHQLog.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E22150AE1F29BA5200531832 /* OHQReferenceCode */ = {
+			isa = PBXGroup;
+			children = (
+				E22150BD1F29BA5200531832 /* OHQReferenceCode.h */,
+				E2BCDAC6200CA37600C0EE4C /* Helper */,
+				E2055FD3200DADAC00EB5816 /* Extension */,
+				E2055FDE200DB02100EB5816 /* Design */,
+				E2055FE5200DB0A900EB5816 /* Model */,
+				E22150CB1F29BBFF00531832 /* Resources */,
+			);
+			path = OHQReferenceCode;
+			sourceTree = "<group>";
+		};
+		E22150CB1F29BBFF00531832 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E22150CC1F29BBFF00531832 /* CompanyNames.plist */,
+				E22150CD1F29BBFF00531832 /* FormatDescriptions.plist */,
+				E22150CE1F29BBFF00531832 /* UUIDDescriptions.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E22DD4071F3AF5570031AEC3 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				761EE9B125B902E10046AC39 /* BSOHistoryEntity+CoreDataProperties.h */,
+				761EE9B025B902E10046AC39 /* BSOHistoryEntity+CoreDataProperties.m */,
+				E22DD4081F3AF5570031AEC3 /* BleSampleOmron.xcdatamodeld */,
+				E22DD4101F3AF5570031AEC3 /* BSOPersistentContainer.h */,
+				E22DD4111F3AF5570031AEC3 /* BSOPersistentContainer.m */,
+				E2BA7EB91F4BF0AD004A7E39 /* BSOUserEntity+CoreDataClass.h */,
+				E2BA7EBA1F4BF0AD004A7E39 /* BSOUserEntity+CoreDataClass.m */,
+				E2BA7EBB1F4BF0AD004A7E39 /* BSOUserEntity+CoreDataProperties.h */,
+				E2BA7EBC1F4BF0AD004A7E39 /* BSOUserEntity+CoreDataProperties.m */,
+				E2BA7EBD1F4BF0AD004A7E39 /* BSODeviceEntity+CoreDataClass.h */,
+				E2BA7EBE1F4BF0AD004A7E39 /* BSODeviceEntity+CoreDataClass.m */,
+				E2BA7EBF1F4BF0AD004A7E39 /* BSODeviceEntity+CoreDataProperties.h */,
+				E2BA7EC01F4BF0AD004A7E39 /* BSODeviceEntity+CoreDataProperties.m */,
+				E22115551F559BC200D388F5 /* BSOHistoryEntity+CoreDataClass.h */,
+				E22115561F559BC200D388F5 /* BSOHistoryEntity+CoreDataClass.m */,
+				E22115571F559BC200D388F5 /* BSOHistoryEntity+CoreDataProperties.h */,
+				E22115581F559BC200D388F5 /* BSOHistoryEntity+CoreDataProperties.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		E22DD4191F3AF6FC0031AEC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E22DD41B1F3AF6FC0031AEC3 /* LaunchScreen.storyboard */,
+				E22DD41D1F3AF6FC0031AEC3 /* Main.storyboard */,
+				E25AFCD91F540F830080FDF1 /* BSOBloodPressureCollectionViewCell.xib */,
+				E25AFCDF1F540F830080FDF1 /* BSOWeightCollectionViewCell.xib */,
+				E25AFCDD1F540F830080FDF1 /* BSOBodyCompositionCollectionViewCell.xib */,
+				248BC4C7267B166A004AE792 /* BSOPulseOximeterCollectionViewCell.xib */,
+				24F15347267B199000DAA501 /* BSOThermometerCollectionViewCell.xib */,
+				E2123D811F58EF6C0035AE0C /* BSOTableViewHeaderView.xib */,
+				E22DD41A1F3AF6FC0031AEC3 /* Assets.xcassets */,
+				E22DD4251F3AF79C0031AEC3 /* DefaultUserProfiles.plist */,
+				E22DD42D1F3C4B6E0031AEC3 /* DefaultAppConfig.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E243E7DF1DB5F477006C2B13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E25AFCEB1F541E2D0080FDF1 /* BSOBloodPressureCollectionViewCell.h */,
+				E25AFCEC1F541E2D0080FDF1 /* BSOBloodPressureCollectionViewCell.m */,
+				E25AFCEF1F541E2D0080FDF1 /* BSOWeightCollectionViewCell.h */,
+				E25AFCF01F541E2D0080FDF1 /* BSOWeightCollectionViewCell.m */,
+				E25AFCED1F541E2D0080FDF1 /* BSOBodyCompositionCollectionViewCell.h */,
+				E25AFCEE1F541E2D0080FDF1 /* BSOBodyCompositionCollectionViewCell.m */,
+				7660322925AFE0ED002D123F /* BSOPulseOximeterCollectionViewCell.h */,
+				7660322A25AFE0ED002D123F /* BSOPulseOximeterCollectionViewCell.m */,
+				24F1534B267B1A1E00DAA501 /* BSOThermometerCollectionViewCell.h */,
+				24F1534A267B1A1D00DAA501 /* BSOThermometerCollectionViewCell.m */,
+				E2123D7E1F58EF4F0035AE0C /* BSOTableViewHeaderView.h */,
+				E2123D7F1F58EF4F0035AE0C /* BSOTableViewHeaderView.m */,
+				E25AFCF71F5427C10080FDF1 /* BSODeviceInfoCell.h */,
+				E25AFCF81F5427C10080FDF1 /* BSODeviceInfoCell.m */,
+				E25AFCFA1F5431650080FDF1 /* BSOMeasurementsCell.h */,
+				E25AFCFB1F5431650080FDF1 /* BSOMeasurementsCell.m */,
+				E21984B61F4D760200972F4D /* BSODiscoveredDeviceCell.h */,
+				E21984B71F4D760200972F4D /* BSODiscoveredDeviceCell.m */,
+				E21984B81F4D760200972F4D /* BSOHistoryCell.h */,
+				E21984B91F4D760200972F4D /* BSOHistoryCell.m */,
+				E21984BA1F4D760200972F4D /* BSORegisteredDeviceCell.h */,
+				E21984BB1F4D760200972F4D /* BSORegisteredDeviceCell.m */,
+				E21984BC1F4D760200972F4D /* BSOUserCell.h */,
+				E21984BD1F4D760200972F4D /* BSOUserCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E27E0369200C8A480024B4A5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E27E036A200C8A480024B4A5 /* NSDate+BleSampleOmron.h */,
+				E27E036B200C8A480024B4A5 /* NSDate+BleSampleOmron.m */,
+				E27E036C200C8A480024B4A5 /* UIColor+BleSampleOmron.h */,
+				E27E036D200C8A480024B4A5 /* UIColor+BleSampleOmron.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E27E0370200C8B9D0024B4A5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E27E0371200C8B9D0024B4A5 /* REFrostedViewController */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E27E0371200C8B9D0024B4A5 /* REFrostedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E27E0372200C8B9D0024B4A5 /* RECommonFunctions.h */,
+				E27E0373200C8B9D0024B4A5 /* RECommonFunctions.m */,
+				E27E0374200C8B9D0024B4A5 /* REFrostedContainerViewController.h */,
+				E27E0375200C8B9D0024B4A5 /* REFrostedContainerViewController.m */,
+				E27E0376200C8B9D0024B4A5 /* REFrostedViewController.h */,
+				E27E0377200C8B9D0024B4A5 /* REFrostedViewController.m */,
+				E27E0378200C8B9D0024B4A5 /* UIImage+REFrostedViewController.h */,
+				E27E0379200C8B9D0024B4A5 /* UIImage+REFrostedViewController.m */,
+				E27E037A200C8B9D0024B4A5 /* UIView+REFrostedViewController.h */,
+				E27E037B200C8B9D0024B4A5 /* UIView+REFrostedViewController.m */,
+				E27E037C200C8B9D0024B4A5 /* UIViewController+REFrostedViewController.h */,
+				E27E037D200C8B9D0024B4A5 /* UIViewController+REFrostedViewController.m */,
+			);
+			path = REFrostedViewController;
+			sourceTree = "<group>";
+		};
+		E2ACC8BC1DB0971100D3601F = {
+			isa = PBXGroup;
+			children = (
+				E2ACC8C71DB0971100D3601F /* BleSampleOmron */,
+				E22150AE1F29BA5200531832 /* OHQReferenceCode */,
+				E2ACC8C61DB0971100D3601F /* Products */,
+				EA033B93BDBC7D408B8254BD /* Pods */,
+				A4F975E95BDFE9B7206EA7C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2ACC8C61DB0971100D3601F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2ACC8C51DB0971100D3601F /* BleSampleOmron.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2ACC8C71DB0971100D3601F /* BleSampleOmron */ = {
+			isa = PBXGroup;
+			children = (
+				76B363A125AD583A00002188 /* Utils */,
+				E2C67B3C1F2EF5D70016CCA8 /* BSODefines.h */,
+				E2C67B3D1F2EF5D70016CCA8 /* BSODefines.m */,
+				E2ACC8CB1DB0971100D3601F /* BSOAppDelegate.h */,
+				E2ACC8CC1DB0971100D3601F /* BSOAppDelegate.m */,
+				E27E0370200C8B9D0024B4A5 /* Helper */,
+				E27E0369200C8A480024B4A5 /* Extension */,
+				E22DD4071F3AF5570031AEC3 /* CoreData */,
+				E2BCDA6D200C97EE00C0EE4C /* Model */,
+				E243E7DF1DB5F477006C2B13 /* View */,
+				E2BCDA7A200C9C2E00C0EE4C /* ViewController */,
+				E22DD4191F3AF6FC0031AEC3 /* Resources */,
+				E2ACC8C81DB0971100D3601F /* Supporting Files */,
+			);
+			path = BleSampleOmron;
+			sourceTree = "<group>";
+		};
+		E2ACC8C81DB0971100D3601F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2ACC8DC1DB0971100D3601F /* Info.plist */,
+				E2ACC8C91DB0971100D3601F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2BCDA6D200C97EE00C0EE4C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2BCDA6E200C97EE00C0EE4C /* BSOSessionData.h */,
+				E2BCDA6F200C97EE00C0EE4C /* BSOSessionData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2BCDA7A200C9C2E00C0EE4C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E2BCDA7B200C9C2E00C0EE4C /* BSOAcknowledgementsViewController.h */,
+				E2BCDA7C200C9C2E00C0EE4C /* BSOAcknowledgementsViewController.m */,
+				E2BCDA7D200C9C2E00C0EE4C /* BSOAdvertisementDataViewController.h */,
+				E2BCDA7E200C9C2E00C0EE4C /* BSOAdvertisementDataViewController.m */,
+				AEBF9EB3256777780036F7F6 /* BSOBluetoothCheckViewController.h */,
+				AEBF9EB9256777CA0036F7F6 /* BSOBluetoothCheckViewController.m */,
+				E2BCDA7F200C9C2E00C0EE4C /* BSODeviceRegistrationNavigationController.h */,
+				E2BCDA80200C9C2E00C0EE4C /* BSODeviceRegistrationNavigationController.m */,
+				E2BCDA81200C9C2E00C0EE4C /* BSODeviceSelectionNavigationController.h */,
+				E2BCDA82200C9C2E00C0EE4C /* BSODeviceSelectionNavigationController.m */,
+				E2BCDA83200C9C2E00C0EE4C /* BSODiscoveredDeviceSelectionViewController.h */,
+				E2BCDA84200C9C2E00C0EE4C /* BSODiscoveredDeviceSelectionViewController.m */,
+				E2BCDA85200C9C2E00C0EE4C /* BSODrawerMenuViewController.h */,
+				E2BCDA86200C9C2E00C0EE4C /* BSODrawerMenuViewController.m */,
+				E2BCDA87200C9C2E00C0EE4C /* BSOGenderSelectionViewController.h */,
+				E2BCDA88200C9C2E00C0EE4C /* BSOGenderSelectionViewController.m */,
+				E2BCDA89200C9C2E00C0EE4C /* BSOGuestUserHomeViewController.h */,
+				E2BCDA8A200C9C2E00C0EE4C /* BSOGuestUserHomeViewController.m */,
+				E2BCDA8B200C9C2E00C0EE4C /* BSOHistoryViewController.h */,
+				E2BCDA8C200C9C2E00C0EE4C /* BSOHistoryViewController.m */,
+				E2BCDA8D200C9C2E00C0EE4C /* BSOLogViewController.h */,
+				E2BCDA8E200C9C2E00C0EE4C /* BSOLogViewController.m */,
+				E2BCDA8F200C9C2E00C0EE4C /* BSOMeasurementRecordViewController.h */,
+				E2BCDA90200C9C2E00C0EE4C /* BSOMeasurementRecordViewController.m */,
+				E2BCDA91200C9C2E00C0EE4C /* BSOProfileViewController.h */,
+				E2BCDA92200C9C2E00C0EE4C /* BSOProfileViewController.m */,
+				E2BCDA93200C9C2E00C0EE4C /* BSORegisteredDeviceDetailViewController.h */,
+				E2BCDA94200C9C2E00C0EE4C /* BSORegisteredDeviceDetailViewController.m */,
+				E2BCDA95200C9C2E00C0EE4C /* BSORegistrationOptionsSelectionViewController.h */,
+				E2BCDA96200C9C2E00C0EE4C /* BSORegistrationOptionsSelectionViewController.m */,
+				E2BCDA97200C9C2E00C0EE4C /* BSORootNavigationController.h */,
+				E2BCDA98200C9C2E00C0EE4C /* BSORootNavigationController.m */,
+				E2BCDA99200C9C2E00C0EE4C /* BSOSessionResultNavigationController.h */,
+				E2BCDA9A200C9C2E00C0EE4C /* BSOSessionResultNavigationController.m */,
+				E2BCDA9B200C9C2E00C0EE4C /* BSOSessionResultViewController.h */,
+				E2BCDA9C200C9C2E00C0EE4C /* BSOSessionResultViewController.m */,
+				E2BCDA9D200C9C2E00C0EE4C /* BSOSessionViewController.h */,
+				E2BCDA9E200C9C2E00C0EE4C /* BSOSessionViewController.m */,
+				E2BCDA9F200C9C2E00C0EE4C /* BSOSettingsViewController.h */,
+				E2BCDAA0200C9C2E00C0EE4C /* BSOSettingsViewController.m */,
+				E2BCDAA1200C9C2E00C0EE4C /* BSOUserHomeViewController.h */,
+				E2BCDAA2200C9C2E00C0EE4C /* BSOUserHomeViewController.m */,
+				E2BCDAA3200C9C2E00C0EE4C /* BSOUserSelectionViewController.h */,
+				E2BCDAA4200C9C2E00C0EE4C /* BSOUserSelectionViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E2BCDAC6200CA37600C0EE4C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EA033B93BDBC7D408B8254BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39A80439E69006719AD4A504 /* Pods-BleSampleOmron.debug.xcconfig */,
+				56094A886BE6C0649EFDF557 /* Pods-BleSampleOmron.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2ACC8C41DB0971100D3601F /* BleSampleOmron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2ACC8DF1DB0971100D3601F /* Build configuration list for PBXNativeTarget "BleSampleOmron" */;
+			buildPhases = (
+				B4DC498B8CDABC6C2060EF57 /* [CP] Check Pods Manifest.lock */,
+				E2ACC8C11DB0971100D3601F /* Sources */,
+				E2ACC8C21DB0971100D3601F /* Frameworks */,
+				E2ACC8C31DB0971100D3601F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BleSampleOmron;
+			packageProductDependencies = (
+				65C28C5B2B07E80E00E118AE /* ZipArchive */,
+			);
+			productName = BleSampleOmron;
+			productReference = E2ACC8C51DB0971100D3601F /* BleSampleOmron.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2ACC8BD1DB0971100D3601F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BSO;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Omron Healthcare Co., Ltd.";
+				TargetAttributes = {
+					E2ACC8C41DB0971100D3601F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8JXE7E8H32;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E2ACC8C01DB0971100D3601F /* Build configuration list for PBXProject "BleSampleOmron" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2ACC8BC1DB0971100D3601F;
+			packageReferences = (
+				65C28C542B07E40C00E118AE /* XCRemoteSwiftPackageReference "ZipArchive" */,
+			);
+			productRefGroup = E2ACC8C61DB0971100D3601F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2ACC8C41DB0971100D3601F /* BleSampleOmron */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2ACC8C31DB0971100D3601F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22150D01F29BBFF00531832 /* FormatDescriptions.plist in Resources */,
+				E22DD4231F3AF6FC0031AEC3 /* Main.storyboard in Resources */,
+				E2123D831F58EF6C0035AE0C /* BSOTableViewHeaderView.xib in Resources */,
+				E22DD4211F3AF6FC0031AEC3 /* Assets.xcassets in Resources */,
+				E22DD42E1F3C4B6E0031AEC3 /* DefaultAppConfig.plist in Resources */,
+				E22150D11F29BBFF00531832 /* UUIDDescriptions.plist in Resources */,
+				E25AFCE31F540F830080FDF1 /* BSOBodyCompositionCollectionViewCell.xib in Resources */,
+				248BC4C9267B166A004AE792 /* BSOPulseOximeterCollectionViewCell.xib in Resources */,
+				24F15349267B199000DAA501 /* BSOThermometerCollectionViewCell.xib in Resources */,
+				E22DD4221F3AF6FC0031AEC3 /* LaunchScreen.storyboard in Resources */,
+				E22150CF1F29BBFF00531832 /* CompanyNames.plist in Resources */,
+				E25AFCE41F540F830080FDF1 /* BSOWeightCollectionViewCell.xib in Resources */,
+				E25AFCE11F540F830080FDF1 /* BSOBloodPressureCollectionViewCell.xib in Resources */,
+				E22DD4261F3AF79C0031AEC3 /* DefaultUserProfiles.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B4DC498B8CDABC6C2060EF57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BleSampleOmron-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2ACC8C11DB0971100D3601F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2ACC8CD1DB0971100D3601F /* BSOAppDelegate.m in Sources */,
+				E2BCDAB1200C9C2E00C0EE4C /* BSORegisteredDeviceDetailViewController.m in Sources */,
+				E2055FF3200DB0A900EB5816 /* OHQLog.m in Sources */,
+				E21984BF1F4D760200972F4D /* BSOHistoryCell.m in Sources */,
+				E27E0383200C8B9D0024B4A5 /* UIViewController+REFrostedViewController.m in Sources */,
+				E21984C11F4D760200972F4D /* BSOUserCell.m in Sources */,
+				E2BCDAB0200C9C2E00C0EE4C /* BSOProfileViewController.m in Sources */,
+				E2BCDAAB200C9C2E00C0EE4C /* BSOGenderSelectionViewController.m in Sources */,
+				E2C67B3E1F2EF5D70016CCA8 /* BSODefines.m in Sources */,
+				E2BCDAA6200C9C2E00C0EE4C /* BSOAdvertisementDataViewController.m in Sources */,
+				E2BCDAB5200C9C2E00C0EE4C /* BSOSessionResultViewController.m in Sources */,
+				E2055FF4200DB0A900EB5816 /* OHQLogStore.m in Sources */,
+				E2055FE3200DB02100EB5816 /* OHQState.m in Sources */,
+				E27E037F200C8B9D0024B4A5 /* REFrostedContainerViewController.m in Sources */,
+				E2055FF2200DB0A900EB5816 /* OHQDeviceManager.m in Sources */,
+				E2BCDAAC200C9C2E00C0EE4C /* BSOGuestUserHomeViewController.m in Sources */,
+				7660322C25AFE0ED002D123F /* BSOPulseOximeterCollectionViewCell.m in Sources */,
+				E2123D801F58EF4F0035AE0C /* BSOTableViewHeaderView.m in Sources */,
+				E2BCDAB4200C9C2E00C0EE4C /* BSOSessionResultNavigationController.m in Sources */,
+				E25AFCF21F541E2D0080FDF1 /* BSOBodyCompositionCollectionViewCell.m in Sources */,
+				E2BCDAA7200C9C2E00C0EE4C /* BSODeviceRegistrationNavigationController.m in Sources */,
+				E2BCDAA9200C9C2E00C0EE4C /* BSODiscoveredDeviceSelectionViewController.m in Sources */,
+				AEBF9EBA256777CA0036F7F6 /* BSOBluetoothCheckViewController.m in Sources */,
+				E2BCDAB3200C9C2E00C0EE4C /* BSORootNavigationController.m in Sources */,
+				E2BCDAB7200C9C2E00C0EE4C /* BSOSettingsViewController.m in Sources */,
+				E25AFCF11F541E2D0080FDF1 /* BSOBloodPressureCollectionViewCell.m in Sources */,
+				E2055FF0200DB0A900EB5816 /* OHQDefines.m in Sources */,
+				E27E0382200C8B9D0024B4A5 /* UIView+REFrostedViewController.m in Sources */,
+				E2BCDAB2200C9C2E00C0EE4C /* BSORegistrationOptionsSelectionViewController.m in Sources */,
+				E2055FD6200DADAC00EB5816 /* CBUUID+Description.m in Sources */,
+				E2BCDAAF200C9C2E00C0EE4C /* BSOMeasurementRecordViewController.m in Sources */,
+				E2BCDAA8200C9C2E00C0EE4C /* BSODeviceSelectionNavigationController.m in Sources */,
+				E221155A1F559BC200D388F5 /* BSOHistoryEntity+CoreDataProperties.m in Sources */,
+				E2BA7EC41F4BF0AD004A7E39 /* BSODeviceEntity+CoreDataProperties.m in Sources */,
+				E2055FF1200DB0A900EB5816 /* OHQDevice.m in Sources */,
+				E27E037E200C8B9D0024B4A5 /* RECommonFunctions.m in Sources */,
+				24F1534C267B1A1E00DAA501 /* BSOThermometerCollectionViewCell.m in Sources */,
+				E2BCDA70200C97EE00C0EE4C /* BSOSessionData.m in Sources */,
+				E2BCDAAA200C9C2E00C0EE4C /* BSODrawerMenuViewController.m in Sources */,
+				E2BCDAAD200C9C2E00C0EE4C /* BSOHistoryViewController.m in Sources */,
+				E2BA7EC11F4BF0AD004A7E39 /* BSOUserEntity+CoreDataClass.m in Sources */,
+				E2BCDAB9200C9C2E00C0EE4C /* BSOUserSelectionViewController.m in Sources */,
+				E27E0380200C8B9D0024B4A5 /* REFrostedViewController.m in Sources */,
+				E22DD4131F3AF5570031AEC3 /* BleSampleOmron.xcdatamodeld in Sources */,
+				E2ACC8CA1DB0971100D3601F /* main.m in Sources */,
+				E25AFCF31F541E2D0080FDF1 /* BSOWeightCollectionViewCell.m in Sources */,
+				E2BA7EC31F4BF0AD004A7E39 /* BSODeviceEntity+CoreDataClass.m in Sources */,
+				E25AFCF91F5427C10080FDF1 /* BSODeviceInfoCell.m in Sources */,
+				E2BCDAA5200C9C2E00C0EE4C /* BSOAcknowledgementsViewController.m in Sources */,
+				E2BCDAB8200C9C2E00C0EE4C /* BSOUserHomeViewController.m in Sources */,
+				E2BCDAB6200C9C2E00C0EE4C /* BSOSessionViewController.m in Sources */,
+				E27E036F200C8A480024B4A5 /* UIColor+BleSampleOmron.m in Sources */,
+				761EE9B225B902E10046AC39 /* BSOHistoryEntity+CoreDataProperties.m in Sources */,
+				E2BCDAAE200C9C2E00C0EE4C /* BSOLogViewController.m in Sources */,
+				E2BA7EC21F4BF0AD004A7E39 /* BSOUserEntity+CoreDataProperties.m in Sources */,
+				E22DD4171F3AF5570031AEC3 /* BSOPersistentContainer.m in Sources */,
+				E22115591F559BC200D388F5 /* BSOHistoryEntity+CoreDataClass.m in Sources */,
+				E2055FE4200DB02100EB5816 /* OHQStateMachine.m in Sources */,
+				E21984C01F4D760200972F4D /* BSORegisteredDeviceCell.m in Sources */,
+				E27E0381200C8B9D0024B4A5 /* UIImage+REFrostedViewController.m in Sources */,
+				E27E036E200C8A480024B4A5 /* NSDate+BleSampleOmron.m in Sources */,
+				E25AFCFC1F5431650080FDF1 /* BSOMeasurementsCell.m in Sources */,
+				76B363A425AD588200002188 /* BSOLogZipUtils.m in Sources */,
+				E21984BE1F4D760200972F4D /* BSODiscoveredDeviceCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		248BC4C7267B166A004AE792 /* BSOPulseOximeterCollectionViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				248BC4C8267B166A004AE792 /* Base */,
+			);
+			name = BSOPulseOximeterCollectionViewCell.xib;
+			sourceTree = "<group>";
+		};
+		24F15347267B199000DAA501 /* BSOThermometerCollectionViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24F15348267B199000DAA501 /* Base */,
+			);
+			name = BSOThermometerCollectionViewCell.xib;
+			sourceTree = "<group>";
+		};
+		E2123D811F58EF6C0035AE0C /* BSOTableViewHeaderView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2123D821F58EF6C0035AE0C /* Base */,
+			);
+			name = BSOTableViewHeaderView.xib;
+			sourceTree = "<group>";
+		};
+		E22DD41B1F3AF6FC0031AEC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E22DD41C1F3AF6FC0031AEC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E22DD41D1F3AF6FC0031AEC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E22DD41E1F3AF6FC0031AEC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E25AFCD91F540F830080FDF1 /* BSOBloodPressureCollectionViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E25AFCDA1F540F830080FDF1 /* Base */,
+			);
+			name = BSOBloodPressureCollectionViewCell.xib;
+			sourceTree = "<group>";
+		};
+		E25AFCDD1F540F830080FDF1 /* BSOBodyCompositionCollectionViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E25AFCDE1F540F830080FDF1 /* Base */,
+			);
+			name = BSOBodyCompositionCollectionViewCell.xib;
+			sourceTree = "<group>";
+		};
+		E25AFCDF1F540F830080FDF1 /* BSOWeightCollectionViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E25AFCE01F540F830080FDF1 /* Base */,
+			);
+			name = BSOWeightCollectionViewCell.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2ACC8DD1DB0971100D3601F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2ACC8DE1DB0971100D3601F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2ACC8E01DB0971100D3601F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39A80439E69006719AD4A504 /* Pods-BleSampleOmron.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4.1.4;
+				DEVELOPMENT_TEAM = 8JXE7E8H32;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BleSampleOmron/Helper",
+				);
+				INFOPLIST_FILE = BleSampleOmron/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 4.1.4;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.omron.healthcare.sampleapps.ble.BleSampleOmron;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		E2ACC8E11DB0971100D3601F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56094A886BE6C0649EFDF557 /* Pods-BleSampleOmron.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4.1.4;
+				DEVELOPMENT_TEAM = 8JXE7E8H32;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BleSampleOmron/Helper",
+				);
+				INFOPLIST_FILE = BleSampleOmron/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 4.1.4;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ohq.global.sampleapps.ble.BleSampleOmron;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2ACC8C01DB0971100D3601F /* Build configuration list for PBXProject "BleSampleOmron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2ACC8DD1DB0971100D3601F /* Debug */,
+				E2ACC8DE1DB0971100D3601F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2ACC8DF1DB0971100D3601F /* Build configuration list for PBXNativeTarget "BleSampleOmron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2ACC8E01DB0971100D3601F /* Debug */,
+				E2ACC8E11DB0971100D3601F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		65C28C542B07E40C00E118AE /* XCRemoteSwiftPackageReference "ZipArchive" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ZipArchive/ZipArchive";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		65C28C5B2B07E80E00E118AE /* ZipArchive */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65C28C542B07E40C00E118AE /* XCRemoteSwiftPackageReference "ZipArchive" */;
+			productName = ZipArchive;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		E22DD4081F3AF5570031AEC3 /* BleSampleOmron.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				761EE9AA25B901480046AC39 /* BleSampleOmron 2.xcdatamodel */,
+				E22DD4091F3AF5570031AEC3 /* BleSampleOmron.xcdatamodel */,
+			);
+			currentVersion = 761EE9AA25B901480046AC39 /* BleSampleOmron 2.xcdatamodel */;
+			path = BleSampleOmron.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E2ACC8BD1DB0971100D3601F /* Project object */;
+}

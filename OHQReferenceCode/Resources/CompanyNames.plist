@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Ericsson Technology Licensing</string>
+	<string>Nokia Mobile Phones</string>
+	<string>Intel Corp.</string>
+	<string>IBM Corp.</string>
+	<string>Toshiba Corp.</string>
+	<string>3Com</string>
+	<string>Microsoft</string>
+	<string>Lucent</string>
+	<string>Motorola</string>
+	<string>Infineon Technologies AG</string>
+	<string>Cambridge Silicon Radio</string>
+	<string>Silicon Wave</string>
+	<string>Digianswer A/S</string>
+	<string>Texas Instruments Inc.</string>
+	<string>Parthus Technologies Inc.</string>
+	<string>Broadcom Corporation</string>
+	<string>Mitel Semiconductor</string>
+	<string>Widcomm, Inc.</string>
+	<string>Zeevo, Inc.</string>
+	<string>Atmel Corporation</string>
+	<string>Mitsubishi Electric Corporation</string>
+	<string>RTX Telecom A/S</string>
+	<string>KC Technology Inc.</string>
+	<string>Newlogic</string>
+	<string>Transilica, Inc.</string>
+	<string>Rohde &amp; Schwarz GmbH &amp; Co. KG</string>
+	<string>TTPCom Limited</string>
+	<string>Signia Technologies, Inc.</string>
+	<string>Conexant Systems Inc.</string>
+	<string>Qualcomm</string>
+	<string>Inventel</string>
+	<string>AVM Berlin</string>
+	<string>BandSpeed, Inc.</string>
+	<string>Mansella Ltd</string>
+	<string>NEC Corporation</string>
+	<string>WavePlus Technology Co., Ltd.</string>
+	<string>Alcatel</string>
+	<string>NXP Semiconductors (formerly Philips Semiconductors)</string>
+	<string>C Technologies</string>
+	<string>Open Interface</string>
+	<string>R F Micro Devices</string>
+	<string>Hitachi Ltd</string>
+	<string>Symbol Technologies, Inc.</string>
+	<string>Tenovis</string>
+	<string>Macronix International Co. Ltd.</string>
+	<string>GCT Semiconductor</string>
+	<string>Norwood Systems</string>
+	<string>MewTel Technology Inc.</string>
+	<string>ST Microelectronics</string>
+	<string>Synopsys, Inc.</string>
+	<string>Red-M (Communications) Ltd</string>
+	<string>Commil Ltd</string>
+	<string>Computer Access Technology Corporation (CATC)</string>
+	<string>Eclipse (HQ Espana) S.L.</string>
+	<string>Renesas Electronics Corporation</string>
+	<string>Mobilian Corporation</string>
+	<string>Terax</string>
+	<string>Integrated System Solution Corp.</string>
+	<string>Matsushita Electric Industrial Co., Ltd.</string>
+	<string>Gennum Corporation</string>
+	<string>BlackBerry Limited (formerly Research In Motion)</string>
+	<string>IPextreme, Inc.</string>
+	<string>Systems and Chips, Inc</string>
+	<string>Bluetooth SIG, Inc</string>
+	<string>Seiko Epson Corporation</string>
+	<string>Integrated Silicon Solution Taiwan, Inc.</string>
+	<string>CONWISE Technology Corporation Ltd</string>
+	<string>PARROT AUTOMOTIVE SAS</string>
+	<string>Socket Mobile</string>
+	<string>Atheros Communications, Inc.</string>
+	<string>MediaTek, Inc.</string>
+	<string>Bluegiga</string>
+	<string>Marvell Technology Group Ltd.</string>
+	<string>3DSP Corporation</string>
+	<string>Accel Semiconductor Ltd.</string>
+	<string>Continental Automotive Systems</string>
+	<string>Apple, Inc.</string>
+	<string>Staccato Communications, Inc.</string>
+	<string>Avago Technologies</string>
+	<string>APT Ltd.</string>
+	<string>SiRF Technology, Inc.</string>
+	<string>Tzero Technologies, Inc.</string>
+	<string>J&amp;M Corporation</string>
+	<string>Free2move AB</string>
+	<string>3DiJoy Corporation</string>
+	<string>Plantronics, Inc.</string>
+	<string>Sony Ericsson Mobile Communications</string>
+	<string>Harman International Industries, Inc.</string>
+	<string>Vizio, Inc.</string>
+	<string>Nordic Semiconductor ASA</string>
+	<string>EM Microelectronic-Marin SA</string>
+	<string>Ralink Technology Corporation</string>
+	<string>Belkin International, Inc.</string>
+	<string>Realtek Semiconductor Corporation</string>
+	<string>Stonestreet One, LLC</string>
+	<string>Wicentric, Inc.</string>
+	<string>RivieraWaves S.A.S</string>
+	<string>RDA Microelectronics</string>
+	<string>Gibson Guitars</string>
+	<string>MiCommand Inc.</string>
+	<string>Band XI International, LLC</string>
+	<string>Hewlett-Packard Company</string>
+	<string>9Solutions Oy</string>
+	<string>GN Netcom A/S</string>
+	<string>General Motors</string>
+	<string>A&amp;D Engineering, Inc.</string>
+	<string>MindTree Ltd.</string>
+	<string>Polar Electro OY</string>
+	<string>Beautiful Enterprise Co., Ltd.</string>
+	<string>BriarTek, Inc</string>
+	<string>Summit Data Communications, Inc.</string>
+	<string>Sound ID</string>
+	<string>Monster, LLC</string>
+	<string>connectBlue AB</string>
+	<string>ShangHai Super Smart Electronics Co. Ltd.</string>
+	<string>Group Sense Ltd.</string>
+	<string>Zomm, LLC</string>
+	<string>Samsung Electronics Co. Ltd.</string>
+	<string>Creative Technology Ltd.</string>
+	<string>Laird Technologies</string>
+	<string>Nike, Inc.</string>
+	<string>lesswire AG</string>
+	<string>MStar Semiconductor, Inc.</string>
+	<string>Hanlynn Technologies</string>
+	<string>A &amp; R Cambridge</string>
+	<string>Seers Technology Co., Ltd.</string>
+	<string>Sports Tracking Technologies Ltd.</string>
+	<string>Autonet Mobile</string>
+	<string>DeLorme Publishing Company, Inc.</string>
+	<string>WuXi Vimicro</string>
+	<string>Sennheiser Communications A/S</string>
+	<string>TimeKeeping Systems, Inc.</string>
+	<string>Ludus Helsinki Ltd.</string>
+	<string>BlueRadios, Inc.</string>
+	<string>Equinux AG</string>
+	<string>Garmin International, Inc.</string>
+	<string>Ecotest</string>
+	<string>GN ReSound A/S</string>
+	<string>Jawbone</string>
+	<string>Topcon Positioning Systems, LLC</string>
+	<string>Gimbal Inc. (formerly Qualcomm Labs, Inc. and Qualcomm Retail Solutions, Inc.)</string>
+	<string>Zscan Software</string>
+	<string>Quintic Corp</string>
+	<string>Telit Wireless Solutions GmbH (formerly Stollmann E+V GmbH)</string>
+	<string>Funai Electric Co., Ltd.</string>
+	<string>Advanced PANMOBIL systems GmbH &amp; Co. KG</string>
+	<string>ThinkOptics, Inc.</string>
+	<string>Universal Electronics, Inc.</string>
+	<string>Airoha Technology Corp.</string>
+	<string>NEC Lighting, Ltd.</string>
+	<string>ODM Technology, Inc.</string>
+	<string>ConnecteDevice Ltd.</string>
+	<string>zero1.tv GmbH</string>
+	<string>i.Tech Dynamic Global Distribution Ltd.</string>
+	<string>Alpwise</string>
+	<string>Jiangsu Toppower Automotive Electronics Co., Ltd.</string>
+	<string>Colorfy, Inc.</string>
+	<string>Geoforce Inc.</string>
+	<string>Bose Corporation</string>
+	<string>Suunto Oy</string>
+	<string>Kensington Computer Products Group</string>
+	<string>SR-Medizinelektronik</string>
+	<string>Vertu Corporation Limited</string>
+	<string>Meta Watch Ltd.</string>
+	<string>LINAK A/S</string>
+	<string>OTL Dynamics LLC</string>
+	<string>Panda Ocean Inc.</string>
+	<string>Visteon Corporation</string>
+	<string>ARP Devices Limited</string>
+	<string>Magneti Marelli S.p.A</string>
+	<string>CAEN RFID srl</string>
+	<string>Ingenieur-Systemgruppe Zahn GmbH</string>
+	<string>Green Throttle Games</string>
+	<string>Peter Systemtechnik GmbH</string>
+	<string>Omegawave Oy</string>
+	<string>Cinetix</string>
+	<string>Passif Semiconductor Corp</string>
+	<string>Saris Cycling Group, Inc</string>
+	<string>Bekey A/S</string>
+	<string>Clarinox Technologies Pty. Ltd.</string>
+	<string>BDE Technology Co., Ltd.</string>
+	<string>Swirl Networks</string>
+	<string>Meso international</string>
+	<string>TreLab Ltd</string>
+	<string>Qualcomm Innovation Center, Inc. (QuIC)</string>
+	<string>Johnson Controls, Inc.</string>
+	<string>Starkey Laboratories Inc.</string>
+	<string>S-Power Electronics Limited</string>
+	<string>Ace Sensor Inc</string>
+	<string>Aplix Corporation</string>
+	<string>AAMP of America</string>
+	<string>Stalmart Technology Limited</string>
+	<string>AMICCOM Electronics Corporation</string>
+	<string>Shenzhen Excelsecu Data Technology Co.,Ltd</string>
+	<string>Geneq Inc.</string>
+	<string>adidas AG</string>
+	<string>LG Electronics</string>
+	<string>Onset Computer Corporation</string>
+	<string>Selfly BV</string>
+	<string>Quuppa Oy.</string>
+	<string>GeLo Inc</string>
+	<string>Evluma</string>
+	<string>MC10</string>
+	<string>Binauric SE</string>
+	<string>Beats Electronics</string>
+	<string>Microchip Technology Inc.</string>
+	<string>Elgato Systems GmbH</string>
+	<string>ARCHOS SA</string>
+	<string>Dexcom, Inc.</string>
+	<string>Polar Electro Europe B.V.</string>
+	<string>Dialog Semiconductor B.V.</string>
+	<string>Taixingbang Technology (HK) Co,. LTD.</string>
+	<string>Kawantech</string>
+	<string>Austco Communication Systems</string>
+	<string>Timex Group USA, Inc.</string>
+	<string>Qualcomm Technologies, Inc.</string>
+	<string>Qualcomm Connected Experiences, Inc.</string>
+	<string>Voyetra Turtle Beach</string>
+	<string>txtr GmbH</string>
+	<string>Biosentronics</string>
+	<string>Procter &amp; Gamble</string>
+	<string>Hosiden Corporation</string>
+	<string>Muzik LLC</string>
+	<string>Misfit Wearables Corp</string>
+	<string>Google</string>
+	<string>Danlers Ltd</string>
+	<string>Semilink Inc</string>
+	<string>inMusic Brands, Inc</string>
+	<string>L.S. Research Inc.</string>
+	<string>Eden Software Consultants Ltd.</string>
+	<string>Freshtemp</string>
+	<string>KS Technologies</string>
+	<string>ACTS Technologies</string>
+	<string>Vtrack Systems</string>
+	<string>Nielsen-Kellerman Company</string>
+	<string>Server Technology Inc.</string>
+	<string>BioResearch Associates</string>
+	<string>Jolly Logic, LLC</string>
+	<string>Above Average Outcomes, Inc.</string>
+	<string>Bitsplitters GmbH</string>
+	<string>PayPal, Inc.</string>
+	<string>Witron Technology Limited</string>
+	<string>Morse Project Inc.</string>
+	<string>Kent Displays Inc.</string>
+	<string>Nautilus Inc.</string>
+	<string>Smartifier Oy</string>
+	<string>Elcometer Limited</string>
+	<string>VSN Technologies, Inc.</string>
+	<string>AceUni Corp., Ltd.</string>
+	<string>StickNFind</string>
+	<string>Crystal Code AB</string>
+	<string>KOUKAAM a.s.</string>
+	<string>Delphi Corporation</string>
+	<string>ValenceTech Limited</string>
+	<string>Stanley Black and Decker</string>
+	<string>Typo Products, LLC</string>
+	<string>TomTom International BV</string>
+	<string>Fugoo, Inc.</string>
+	<string>Keiser Corporation</string>
+	<string>Bang &amp; Olufsen A/S</string>
+	<string>PLUS Location Systems Pty Ltd</string>
+	<string>Ubiquitous Computing Technology Corporation</string>
+	<string>Innovative Yachtter Solutions</string>
+	<string>William Demant Holding A/S</string>
+	<string>Chicony Electronics Co., Ltd.</string>
+	<string>Atus BV</string>
+	<string>Codegate Ltd</string>
+	<string>ERi, Inc</string>
+	<string>Transducers Direct, LLC</string>
+	<string>Fujitsu Ten LImited</string>
+	<string>Audi AG</string>
+	<string>HiSilicon Technologies Col, Ltd.</string>
+	<string>Nippon Seiki Co., Ltd.</string>
+	<string>Steelseries ApS</string>
+	<string>Visybl Inc.</string>
+	<string>Openbrain Technologies, Co., Ltd.</string>
+	<string>Xensr</string>
+	<string>e.solutions</string>
+	<string>10AK Technologies</string>
+	<string>Wimoto Technologies Inc</string>
+	<string>Radius Networks, Inc.</string>
+	<string>Wize Technology Co., Ltd.</string>
+	<string>Qualcomm Labs, Inc.</string>
+	<string>Aruba Networks</string>
+	<string>Baidu</string>
+	<string>Arendi AG</string>
+	<string>Skoda Auto a.s.</string>
+	<string>Volkswagen AG</string>
+	<string>Porsche AG</string>
+	<string>Sino Wealth Electronic Ltd.</string>
+	<string>AirTurn, Inc.</string>
+	<string>Kinsa, Inc</string>
+	<string>HID Global</string>
+	<string>SEAT es</string>
+	<string>Promethean Ltd.</string>
+	<string>Salutica Allied Solutions</string>
+	<string>GPSI Group Pty Ltd</string>
+	<string>Nimble Devices Oy</string>
+	<string>Changzhou Yongse Infotech Co., Ltd.</string>
+	<string>SportIQ</string>
+	<string>TEMEC Instruments B.V.</string>
+	<string>Sony Corporation</string>
+	<string>ASSA ABLOY</string>
+	<string>Clarion Co. Inc.</string>
+	<string>Warehouse Innovations</string>
+	<string>Cypress Semiconductor</string>
+	<string>MADS Inc</string>
+	<string>Blue Maestro Limited</string>
+	<string>Resolution Products, Ltd.</string>
+	<string>Aireware LLC</string>
+	<string>Silvair, Inc.</string>
+	<string>Prestigio Plaza Ltd.</string>
+	<string>NTEO Inc.</string>
+	<string>Focus Systems Corporation</string>
+	<string>Tencent Holdings Ltd.</string>
+	<string>Allegion</string>
+	<string>Murata Manufacturing Co., Ltd.</string>
+	<string>WirelessWERX</string>
+	<string>Nod, Inc.</string>
+	<string>B&amp;B Manufacturing Company</string>
+	<string>Alpine Electronics (China) Co., Ltd</string>
+	<string>FedEx Services</string>
+	<string>Grape Systems Inc.</string>
+	<string>Bkon Connect</string>
+	<string>Lintech GmbH</string>
+	<string>Novatel Wireless</string>
+	<string>Ciright</string>
+	<string>Mighty Cast, Inc.</string>
+	<string>Ambimat Electronics</string>
+	<string>Perytons Ltd.</string>
+	<string>Tivoli Audio, LLC</string>
+	<string>Master Lock</string>
+	<string>Mesh-Net Ltd</string>
+	<string>HUIZHOU DESAY SV AUTOMOTIVE CO., LTD.</string>
+	<string>Tangerine, Inc.</string>
+	<string>B&amp;W Group Ltd.</string>
+	<string>Pioneer Corporation</string>
+	<string>OnBeep</string>
+	<string>Vernier Software &amp; Technology</string>
+	<string>ROL Ergo</string>
+	<string>Pebble Technology</string>
+	<string>NETATMO</string>
+	<string>Accumulate AB</string>
+	<string>Anhui Huami Information Technology Co., Ltd.</string>
+	<string>Inmite s.r.o.</string>
+	<string>ChefSteps, Inc.</string>
+	<string>micas AG</string>
+	<string>Biomedical Research Ltd.</string>
+	<string>Pitius Tec S.L.</string>
+	<string>Estimote, Inc.</string>
+	<string>Unikey Technologies, Inc.</string>
+	<string>Timer Cap Co.</string>
+	<string>AwoX</string>
+	<string>yikes</string>
+	<string>MADSGlobalNZ Ltd.</string>
+	<string>PCH International</string>
+	<string>Qingdao Yeelink Information Technology Co., Ltd.</string>
+	<string>Milwaukee Tool (Formally Milwaukee Electric Tools)</string>
+	<string>MISHIK Pte Ltd</string>
+	<string>Bayer HealthCare</string>
+	<string>Spicebox LLC</string>
+	<string>emberlight</string>
+	<string>Cooper-Atkins Corporation</string>
+	<string>Qblinks</string>
+	<string>MYSPHERA</string>
+	<string>LifeScan Inc</string>
+	<string>Volantic AB</string>
+	<string>Podo Labs, Inc</string>
+	<string>Roche Diabetes Care AG</string>
+	<string>Amazon Fulfillment Service</string>
+	<string>Connovate Technology Private Limited</string>
+	<string>Kocomojo, LLC</string>
+	<string>Everykey Inc.</string>
+	<string>Dynamic Controls</string>
+	<string>SentriLock</string>
+	<string>I-SYST inc.</string>
+	<string>CASIO COMPUTER CO., LTD.</string>
+	<string>LAPIS Semiconductor Co., Ltd.</string>
+	<string>Telemonitor, Inc.</string>
+	<string>taskit GmbH</string>
+	<string>Daimler AG</string>
+	<string>BatAndCat</string>
+	<string>BluDotz Ltd</string>
+	<string>XTel Wireless ApS</string>
+	<string>Gigaset Communications GmbH</string>
+	<string>Gecko Health Innovations, Inc.</string>
+	<string>HOP Ubiquitous</string>
+	<string>Walt Disney</string>
+	<string>Nectar</string>
+	<string>bel'apps LLC</string>
+	<string>CORE Lighting Ltd</string>
+	<string>Seraphim Sense Ltd</string>
+	<string>Unico RBC</string>
+	<string>Physical Enterprises Inc.</string>
+	<string>Able Trend Technology Limited</string>
+	<string>Konica Minolta, Inc.</string>
+	<string>Wilo SE</string>
+	<string>Extron Design Services</string>
+	<string>Fitbit, Inc.</string>
+	<string>Fireflies Systems</string>
+	<string>Intelletto Technologies Inc.</string>
+	<string>FDK CORPORATION</string>
+	<string>Cloudleaf, Inc</string>
+	<string>Maveric Automation LLC</string>
+	<string>Acoustic Stream Corporation</string>
+	<string>Zuli</string>
+	<string>Paxton Access Ltd</string>
+	<string>WiSilica Inc.</string>
+	<string>VENGIT Korlatolt Felelossegu Tarsasag</string>
+	<string>SALTO SYSTEMS S.L.</string>
+	<string>TRON Forum (formerly T-Engine Forum)</string>
+	<string>CUBETECH s.r.o.</string>
+	<string>Cokiya Incorporated</string>
+	<string>CVS Health</string>
+	<string>Ceruus</string>
+	<string>Strainstall Ltd</string>
+	<string>Channel Enterprises (HK) Ltd.</string>
+	<string>FIAMM</string>
+	<string>GIGALANE.CO.,LTD</string>
+	<string>EROAD</string>
+	<string>Mine Safety Appliances</string>
+	<string>Icon Health and Fitness</string>
+	<string>Asandoo GmbH</string>
+	<string>ENERGOUS CORPORATION</string>
+	<string>Taobao</string>
+	<string>Canon Inc.</string>
+	<string>Geophysical Technology Inc.</string>
+	<string>Facebook, Inc.</string>
+	<string>Nipro Diagnostics, Inc.</string>
+	<string>FlightSafety International</string>
+	<string>Earlens Corporation</string>
+	<string>Sunrise Micro Devices, Inc.</string>
+	<string>Star Micronics Co., Ltd.</string>
+	<string>Netizens Sp. z o.o.</string>
+	<string>Nymi Inc.</string>
+	<string>Nytec, Inc.</string>
+	<string>Trineo Sp. z o.o.</string>
+	<string>Nest Labs Inc.</string>
+	<string>LM Technologies Ltd</string>
+	<string>General Electric Company</string>
+	<string>i+D3 S.L.</string>
+	<string>HANA Micron</string>
+	<string>Stages Cycling LLC</string>
+	<string>Cochlear Bone Anchored Solutions AB</string>
+	<string>SenionLab AB</string>
+	<string>Syszone Co., Ltd</string>
+	<string>Pulsate Mobile Ltd.</string>
+	<string>Hong Kong HunterSun Electronic Limited</string>
+	<string>pironex GmbH</string>
+	<string>BRADATECH Corp.</string>
+	<string>Transenergooil AG</string>
+	<string>Bunch</string>
+	<string>DME Microelectronics</string>
+	<string>Bitcraze AB</string>
+	<string>HASWARE Inc.</string>
+	<string>Abiogenix Inc.</string>
+	<string>Poly-Control ApS</string>
+	<string>Avi-on</string>
+	<string>Laerdal Medical AS</string>
+	<string>Fetch My Pet</string>
+	<string>Sam Labs Ltd.</string>
+	<string>Chengdu Synwing Technology Ltd</string>
+	<string>HOUWA SYSTEM DESIGN, k.k.</string>
+	<string>BSH</string>
+	<string>Primus Inter Pares Ltd</string>
+	<string>August Home, Inc</string>
+	<string>Gill Electronics</string>
+	<string>Sky Wave Design</string>
+	<string>Newlab S.r.l.</string>
+	<string>ELAD srl</string>
+	<string>G-wearables inc.</string>
+	<string>Squadrone Systems Inc.</string>
+	<string>Code Corporation</string>
+	<string>Savant Systems LLC</string>
+	<string>Logitech International SA</string>
+	<string>Innblue Consulting</string>
+	<string>iParking Ltd.</string>
+	<string>Koninklijke Philips Electronics N.V.</string>
+	<string>Minelab Electronics Pty Limited</string>
+	<string>Bison Group Ltd.</string>
+	<string>Widex A/S</string>
+	<string>Jolla Ltd</string>
+	<string>Lectronix, Inc.</string>
+	<string>Caterpillar Inc</string>
+	<string>Freedom Innovations</string>
+	<string>Dynamic Devices Ltd</string>
+	<string>Technology Solutions (UK) Ltd</string>
+	<string>IPS Group Inc.</string>
+	<string>STIR</string>
+	<string>Sano, Inc.</string>
+	<string>Advanced Application Design, Inc.</string>
+	<string>AutoMap LLC</string>
+	<string>Spreadtrum Communications Shanghai Ltd</string>
+	<string>CuteCircuit LTD</string>
+	<string>Valeo Service</string>
+	<string>Fullpower Technologies, Inc.</string>
+	<string>KloudNation</string>
+	<string>Zebra Technologies Corporation</string>
+	<string>Itron, Inc.</string>
+	<string>The University of Tokyo</string>
+	<string>UTC Fire and Security</string>
+	<string>Cool Webthings Limited</string>
+	<string>DJO Global</string>
+	<string>Gelliner Limited</string>
+	<string>Anyka (Guangzhou) Microelectronics Technology Co, LTD</string>
+	<string>Medtronic Inc.</string>
+	<string>Gozio Inc.</string>
+	<string>Form Lifting, LLC</string>
+	<string>Wahoo Fitness, LLC</string>
+	<string>Kontakt Micro-Location Sp. z o.o.</string>
+	<string>Radio Systems Corporation</string>
+	<string>Freescale Semiconductor, Inc.</string>
+	<string>Verifone Systems Pte Ltd. Taiwan Branch</string>
+	<string>AR Timing</string>
+	<string>Rigado LLC</string>
+	<string>Kemppi Oy</string>
+	<string>Tapcentive Inc.</string>
+	<string>Smartbotics Inc.</string>
+	<string>Otter Products, LLC</string>
+	<string>STEMP Inc.</string>
+	<string>LumiGeek LLC</string>
+	<string>InvisionHeart Inc.</string>
+	<string>Macnica Inc.</string>
+	<string>Jaguar Land Rover Limited</string>
+	<string>CoroWare Technologies, Inc</string>
+	<string>Simplo Technology Co., LTD</string>
+	<string>Omron Healthcare Co., LTD</string>
+	<string>Comodule GMBH</string>
+	<string>ikeGPS</string>
+	<string>Telink Semiconductor Co. Ltd</string>
+	<string>Interplan Co., Ltd</string>
+	<string>Wyler AG</string>
+	<string>IK Multimedia Production srl</string>
+	<string>Lukoton Experience Oy</string>
+	<string>MTI Ltd</string>
+	<string>Tech4home, Lda</string>
+	<string>Hiotech AB</string>
+	<string>DOTT Limited</string>
+	<string>Blue Speck Labs, LLC</string>
+	<string>Cisco Systems, Inc</string>
+	<string>Mobicomm Inc</string>
+	<string>Edamic</string>
+	<string>Goodnet, Ltd</string>
+	<string>Luster Leaf Products Inc</string>
+	<string>Manus Machina BV</string>
+	<string>Mobiquity Networks Inc</string>
+	<string>Praxis Dynamics</string>
+	<string>Philip Morris Products S.A.</string>
+	<string>Comarch SA</string>
+	<string>Nestl Nespresso S.A.</string>
+	<string>Merlinia A/S</string>
+	<string>LifeBEAM Technologies</string>
+	<string>Twocanoes Labs, LLC</string>
+	<string>Muoverti Limited</string>
+	<string>Stamer Musikanlagen GMBH</string>
+	<string>Tesla Motors</string>
+	<string>Pharynks Corporation</string>
+	<string>Lupine</string>
+	<string>Siemens AG</string>
+	<string>Huami (Shanghai) Culture Communication CO., LTD</string>
+	<string>Foster Electric Company, Ltd</string>
+	<string>ETA SA</string>
+	<string>x-Senso Solutions Kft</string>
+	<string>Shenzhen SuLong Communication Ltd</string>
+	<string>FengFan (BeiJing) Technology Co, Ltd</string>
+	<string>Qrio Inc</string>
+	<string>Pitpatpet Ltd</string>
+	<string>MSHeli s.r.l.</string>
+	<string>Trakm8 Ltd</string>
+	<string>JIN CO, Ltd</string>
+	<string>Alatech Tehnology</string>
+	<string>Beijing CarePulse Electronic Technology Co, Ltd</string>
+	<string>Awarepoint</string>
+	<string>ViCentra B.V.</string>
+	<string>Raven Industries</string>
+	<string>WaveWare Technologies Inc.</string>
+	<string>Argenox Technologies</string>
+	<string>Bragi GmbH</string>
+	<string>16Lab Inc</string>
+	<string>Masimo Corp</string>
+	<string>Iotera Inc</string>
+	<string>Endress+Hauser</string>
+	<string>ACKme Networks, Inc.</string>
+	<string>FiftyThree Inc.</string>
+	<string>Parker Hannifin Corp</string>
+	<string>Transcranial Ltd</string>
+	<string>Uwatec AG</string>
+	<string>Orlan LLC</string>
+	<string>Blue Clover Devices</string>
+	<string>M-Way Solutions GmbH</string>
+	<string>Microtronics Engineering GmbH</string>
+	<string>Schneider Schreibgerte GmbH</string>
+	<string>Sapphire Circuits LLC</string>
+	<string>Lumo Bodytech Inc.</string>
+	<string>UKC Technosolution</string>
+	<string>Xicato Inc.</string>
+	<string>Playbrush</string>
+	<string>Dai Nippon Printing Co., Ltd.</string>
+	<string>G24 Power Limited</string>
+	<string>AdBabble Local Commerce Inc.</string>
+	<string>Devialet SA</string>
+	<string>ALTYOR</string>
+	<string>University of Applied Sciences Valais/Haute Ecole Valaisanne</string>
+	<string>Five Interactive, LLC dba Zendo</string>
+	<string>NetEaseHangzhouNetwork co.Ltd.</string>
+	<string>Lexmark International Inc.</string>
+	<string>Fluke Corporation</string>
+	<string>Yardarm Technologies</string>
+	<string>SensaRx</string>
+	<string>SECVRE GmbH</string>
+	<string>Glacial Ridge Technologies</string>
+	<string>Identiv, Inc.</string>
+	<string>DDS, Inc.</string>
+	<string>SMK Corporation</string>
+	<string>Schawbel Technologies LLC</string>
+	<string>XMI Systems SA</string>
+	<string>Cerevo</string>
+	<string>Torrox GmbH &amp; Co KG</string>
+	<string>Gemalto</string>
+	<string>DEKA Research &amp; Development Corp.</string>
+	<string>Domster Tadeusz Szydlowski</string>
+	<string>Technogym SPA</string>
+	<string>FLEURBAEY BVBA</string>
+	<string>Aptcode Solutions</string>
+	<string>LSI ADL Technology</string>
+	<string>Animas Corp</string>
+	<string>Alps Electric Co., Ltd.</string>
+	<string>OCEASOFT</string>
+	<string>Motsai Research</string>
+	<string>Geotab</string>
+	<string>E.G.O. Elektro-Gertebau GmbH</string>
+	<string>bewhere inc</string>
+	<string>Johnson Outdoors Inc</string>
+	<string>steute Schaltgerate GmbH &amp; Co. KG</string>
+	<string>Ekomini inc.</string>
+	<string>DEFA AS</string>
+	<string>Aseptika Ltd</string>
+	<string>HUAWEI Technologies Co., Ltd. ( )</string>
+	<string>HabitAware, LLC</string>
+	<string>ruwido austria gmbh</string>
+	<string>ITEC corporation</string>
+	<string>StoneL</string>
+	<string>Sonova AG</string>
+	<string>Maven Machines, Inc.</string>
+	<string>Synapse Electronics</string>
+	<string>Standard Innovation Inc.</string>
+	<string>RF Code, Inc.</string>
+	<string>Wally Ventures S.L.</string>
+	<string>Willowbank Electronics Ltd</string>
+	<string>SK Telecom</string>
+	<string>Jetro AS</string>
+	<string>Code Gears LTD</string>
+	<string>NANOLINK APS</string>
+	<string>IF, LLC</string>
+	<string>RF Digital Corp</string>
+	<string>Church &amp; Dwight Co., Inc</string>
+	<string>Multibit Oy</string>
+	<string>CliniCloud Inc</string>
+	<string>SwiftSensors</string>
+	<string>Blue Bite</string>
+	<string>ELIAS GmbH</string>
+	<string>Sivantos GmbH</string>
+	<string>Petzl</string>
+	<string>storm power ltd</string>
+	<string>EISST Ltd</string>
+	<string>Inexess Technology Simma KG</string>
+	<string>Currant, Inc.</string>
+	<string>C2 Development, Inc.</string>
+	<string>Blue Sky Scientific, LLC</string>
+	<string>ALOTTAZS LABS, LLC</string>
+	<string>Kupson spol. s r.o.</string>
+	<string>Areus Engineering GmbH</string>
+	<string>Impossible Camera GmbH</string>
+	<string>InventureTrack Systems</string>
+	<string>LockedUp</string>
+	<string>Itude</string>
+	<string>Pacific Lock Company</string>
+	<string>Tendyron Corporation ( )</string>
+	<string>Robert Bosch GmbH</string>
+	<string>Illuxtron international B.V.</string>
+	<string>miSport Ltd.</string>
+	<string>Chargelib</string>
+	<string>Doppler Lab</string>
+	<string>BBPOS Limited</string>
+	<string>RTB Elektronik GmbH &amp; Co. KG</string>
+	<string>Rx Networks, Inc.</string>
+	<string>WeatherFlow, Inc.</string>
+	<string>Technicolor USA Inc.</string>
+	<string>Bestechnic(Shanghai),Ltd</string>
+	<string>Raden Inc</string>
+	<string>JouZen Oy</string>
+	<string>CLABER S.P.A.</string>
+	<string>Hyginex, Inc.</string>
+	<string>HANSHIN ELECTRIC RAILWAY CO.,LTD.</string>
+	<string>Schneider Electric</string>
+	<string>Oort Technologies LLC</string>
+	<string>Chrono Therapeutics</string>
+	<string>Rinnai Corporation</string>
+	<string>Swissprime Technologies AG</string>
+	<string>Koha.,Co.Ltd</string>
+	<string>Genevac Ltd</string>
+	<string>Chemtronics</string>
+	<string>Seguro Technology Sp. z o.o.</string>
+	<string>Redbird Flight Simulations</string>
+	<string>Dash Robotics</string>
+	<string>LINE Corporation</string>
+	<string>Guillemot Corporation</string>
+	<string>Techtronic Power Tools Technology Limited</string>
+	<string>Wilson Sporting Goods</string>
+	<string>Lenovo (Singapore) Pte Ltd. ( )</string>
+	<string>Ayatan Sensors</string>
+	<string>Electronics Tomorrow Limited</string>
+	<string>VASCO Data Security International, Inc.</string>
+	<string>PayRange Inc.</string>
+	<string>ABOV Semiconductor</string>
+	<string>AINA-Wireless Inc.</string>
+	<string>Eijkelkamp Soil &amp; Water</string>
+	<string>BMA ergonomics b.v.</string>
+	<string>Teva Branded Pharmaceutical Products R&amp;D, Inc.</string>
+	<string>Anima</string>
+	<string>3M</string>
+	<string>Empatica Srl</string>
+	<string>Afero, Inc.</string>
+	<string>Powercast Corporation</string>
+	<string>Secuyou ApS</string>
+	<string>OMRON Corporation</string>
+	<string>Send Solutions</string>
+	<string>NIPPON SYSTEMWARE CO.,LTD.</string>
+	<string>Neosfar</string>
+	<string>Fliegl Agrartechnik GmbH</string>
+	<string>Gilvader</string>
+	<string>Digi International Inc (R)</string>
+	<string>DeWalch Technologies, Inc.</string>
+	<string>Flint Rehabilitation Devices, LLC</string>
+	<string>Samsung SDS Co., Ltd.</string>
+	<string>Blur Product Development</string>
+	<string>University of Michigan</string>
+	<string>Victron Energy BV</string>
+	<string>NTT docomo</string>
+	<string>Carmanah Technologies Corp.</string>
+	<string>Bytestorm Ltd.</string>
+	<string>Espressif Incorporated ( () )</string>
+	<string>Unwire</string>
+	<string>Connected Yard, Inc.</string>
+	<string>American Music Environments</string>
+	<string>Sensogram Technologies, Inc.</string>
+	<string>Fujitsu Limited</string>
+	<string>Ardic Technology</string>
+	<string>Delta Systems, Inc</string>
+	<string>HTC Corporation</string>
+	<string>Citizen Holdings Co., Ltd.</string>
+	<string>SMART-INNOVATION.inc</string>
+	<string>Blackrat Software</string>
+	<string>The Idea Cave, LLC</string>
+	<string>GoPro, Inc.</string>
+	<string>AuthAir, Inc</string>
+	<string>Vensi, Inc.</string>
+	<string>Indagem Tech LLC</string>
+	<string>Intemo Technologies</string>
+	<string>DreamVisions co., Ltd.</string>
+	<string>Runteq Oy Ltd</string>
+	<string>IMAGINATION TECHNOLOGIES LTD</string>
+	<string>CoSTAR TEchnologies</string>
+	<string>Clarius Mobile Health Corp.</string>
+	<string>Shanghai Frequen Microelectronics Co., Ltd.</string>
+	<string>Uwanna, Inc.</string>
+	<string>Lierda Science &amp; Technology Group Co., Ltd.</string>
+	<string>Silicon Laboratories</string>
+	<string>World Moto Inc.</string>
+	<string>Giatec Scientific Inc.</string>
+	<string>Loop Devices, Inc</string>
+	<string>IACA electronique</string>
+	<string>Martians Inc</string>
+	<string>Swipp ApS</string>
+	<string>Life Laboratory Inc.</string>
+	<string>FUJI INDUSTRIAL CO.,LTD.</string>
+	<string>Surefire, LLC</string>
+	<string>Dolby Labs</string>
+	<string>Ellisys</string>
+	<string>Magnitude Lighting Converters</string>
+	<string>Hilti AG</string>
+	<string>Devdata S.r.l.</string>
+	<string>Deviceworx</string>
+	<string>Shortcut Labs</string>
+	<string>SGL Italia S.r.l.</string>
+	<string>PEEQ DATA</string>
+	<string>Ducere Technologies Pvt Ltd</string>
+	<string>DiveNav, Inc.</string>
+	<string>RIIG AI Sp. z o.o.</string>
+	<string>Thermo Fisher Scientific</string>
+	<string>AG Measurematics Pvt. Ltd.</string>
+	<string>CHUO Electronics CO., LTD.</string>
+	<string>Aspenta International</string>
+	<string>Eugster Frismag AG</string>
+	<string>Amber wireless GmbH</string>
+	<string>HQ Inc</string>
+	<string>Lab Sensor Solutions</string>
+	<string>Enterlab ApS</string>
+	<string>Eyefi, Inc.</string>
+	<string>MetaSystem S.p.A.</string>
+	<string>SONO ELECTRONICS. CO., LTD</string>
+	<string>Jewelbots</string>
+	<string>Compumedics Limited</string>
+	<string>Rotor Bike Components</string>
+	<string>Astro, Inc.</string>
+	<string>Amotus Solutions</string>
+	<string>Healthwear Technologies (Changzhou)Ltd</string>
+	<string>Essex Electronics</string>
+	<string>Grundfos A/S</string>
+	<string>Eargo, Inc.</string>
+	<string>Electronic Design Lab</string>
+	<string>ESYLUX</string>
+	<string>NIPPON SMT.CO.,Ltd</string>
+	<string>BM innovations GmbH</string>
+	<string>indoormap</string>
+	<string>OttoQ Inc</string>
+	<string>North Pole Engineering</string>
+	<string>3flares Technologies Inc.</string>
+	<string>Electrocompaniet A.S.</string>
+	<string>Mul-T-Lock</string>
+	<string>Corentium AS</string>
+	<string>Enlighted Inc</string>
+	<string>GISTIC</string>
+	<string>AJP2 Holdings, LLC</string>
+	<string>COBI GmbH</string>
+	<string>Blue Sky Scientific, LLC</string>
+	<string>Appception, Inc.</string>
+	<string>Courtney Thorne Limited</string>
+	<string>Virtuosys</string>
+	<string>TPV Technology Limited</string>
+	<string>Monitra SA</string>
+	<string>Automation Components, Inc.</string>
+	<string>Letsense s.r.l.</string>
+	<string>Etesian Technologies LLC</string>
+	<string>GERTEC BRASIL LTDA.</string>
+	<string>Drekker Development Pty. Ltd.</string>
+	<string>Whirl Inc</string>
+	<string>Locus Positioning</string>
+	<string>Acuity Brands Lighting, Inc</string>
+	<string>Prevent Biometrics</string>
+	<string>Arioneo</string>
+	<string>VersaMe</string>
+	<string>Vaddio</string>
+	<string>Libratone A/S</string>
+	<string>HM Electronics, Inc.</string>
+	<string>TASER International, Inc.</string>
+	<string>SafeTrust Inc.</string>
+	<string>Heartland Payment Systems</string>
+	<string>Bitstrata Systems Inc.</string>
+	<string>Pieps GmbH</string>
+	<string>iRiding(Xiamen)Technology Co.,Ltd.</string>
+	<string>Alpha Audiotronics, Inc.</string>
+	<string>TOPPAN FORMS CO.,LTD.</string>
+	<string>Sigma Designs, Inc.</string>
+	<string>Spectrum Brands, Inc.</string>
+	<string>Polymap Wireless</string>
+	<string>MagniWare Ltd.</string>
+	<string>Novotec Medical GmbH</string>
+	<string>Medicom Innovation Partner a/s</string>
+	<string>Matrix Inc.</string>
+	<string>Eaton Corporation</string>
+	<string>KYS</string>
+	<string>Naya Health, Inc.</string>
+	<string>Acromag</string>
+	<string>Insulet Corporation</string>
+	<string>Wellinks Inc.</string>
+	<string>ON Semiconductor</string>
+	<string>FREELAP SA</string>
+	<string>Favero Electronics Srl</string>
+	<string>BioMech Sensor LLC</string>
+	<string>BOLTT Sports technologies Private limited</string>
+	<string>Saphe International</string>
+	<string>Metormote AB</string>
+	<string>littleBits</string>
+	<string>SetPoint Medical</string>
+	<string>BRControls Products BV</string>
+	<string>Zipcar</string>
+	<string>AirBolt Pty Ltd</string>
+	<string>KeepTruckin Inc</string>
+	<string>Motiv, Inc.</string>
+	<string>Wazombi Labs O</string>
+	<string>ORBCOMM</string>
+	<string>Nixie Labs, Inc.</string>
+	<string>AppNearMe Ltd</string>
+	<string>Holman Industries</string>
+	<string>Expain AS</string>
+	<string>Electronic Temperature Instruments Ltd</string>
+	<string>Plejd AB</string>
+	<string>Propeller Health</string>
+	<string>Shenzhen iMCO Electronic Technology Co.,Ltd</string>
+	<string>Algoria</string>
+	<string>Apption Labs Inc.</string>
+	<string>Cronologics Corporation</string>
+	<string>MICRODIA Ltd.</string>
+	<string>lulabytes S.L.</string>
+	<string>Nestec S.A.</string>
+	<string>LLC "MEGA-F service"</string>
+	<string>Sharp Corporation</string>
+	<string>Precision Outcomes Ltd</string>
+	<string>Kronos Incorporated</string>
+	<string>OCOSMOS Co., Ltd.</string>
+	<string>Embedded Electronic Solutions Ltd. dba e2Solutions</string>
+	<string>Aterica Inc.</string>
+	<string>BluStor PMC, Inc.</string>
+	<string>Kapsch TrafficCom AB</string>
+	<string>ActiveBlu Corporation</string>
+	<string>Kohler Mira Limited</string>
+	<string>Noke</string>
+	<string>Appion Inc.</string>
+	<string>Resmed Ltd</string>
+	<string>Crownstone B.V.</string>
+	<string>Xiaomi Inc.</string>
+	<string>INFOTECH s.r.o.</string>
+	<string>Thingsquare AB</string>
+	<string>T&amp;D</string>
+	<string>LAVAZZA S.p.A.</string>
+	<string>Netclearance Systems, Inc.</string>
+	<string>SDATAWAY</string>
+	<string>BLOKS GmbH</string>
+	<string>LEGO System A/S</string>
+	<string>Thetatronics Ltd</string>
+	<string>Nikon Corporation</string>
+	<string>NeST</string>
+	<string>South Silicon Valley Microelectronics</string>
+	<string>ALE International</string>
+	<string>CareView Communications, Inc.</string>
+	<string>SchoolBoard Limited</string>
+	<string>Molex Corporation</string>
+	<string>IVT Wireless Limited</string>
+	<string>Alpine Labs LLC</string>
+	<string>Candura Instruments</string>
+	<string>SmartMovt Technology Co., Ltd</string>
+	<string>Token Zero Ltd</string>
+	<string>ACE CAD Enterprise Co., Ltd. (ACECAD)</string>
+	<string>Medela, Inc</string>
+	<string>AeroScout</string>
+	<string>Esrille Inc.</string>
+	<string>THINKERLY SRL</string>
+	<string>Exon Sp. z o.o.</string>
+	<string>Meizu Technology Co., Ltd.</string>
+	<string>Smablo LTD</string>
+	<string>XiQ</string>
+	<string>Allswell Inc.</string>
+	<string>Comm-N-Sense Corp DBA Verigo</string>
+	<string>VIBRADORM GmbH</string>
+	<string>Otodata Wireless Network Inc.</string>
+	<string>Propagation Systems Limited</string>
+	<string>Midwest Instruments &amp; Controls</string>
+	<string>Alpha Nodus, inc.</string>
+	<string>petPOMM, Inc</string>
+	<string>Mattel</string>
+	<string>Airbly Inc.</string>
+	<string>A-Safe Limited</string>
+	<string>FREDERIQUE CONSTANT SA</string>
+	<string>Maxscend Microelectronics Company Limited</string>
+	<string>Abbott Diabetes Care</string>
+	<string>ASB Bank Ltd</string>
+	<string>amadas</string>
+	<string>Applied Science, Inc.</string>
+	<string>iLumi Solutions Inc.</string>
+	<string>Arch Systems Inc.</string>
+	<string>Ember Technologies, Inc.</string>
+	<string>Snapchat Inc</string>
+	<string>Casambi Technologies Oy</string>
+	<string>Pico Technology Inc.</string>
+	<string>St. Jude Medical, Inc.</string>
+	<string>Intricon</string>
+	<string>Structural Health Systems, Inc.</string>
+	<string>Avvel International</string>
+	<string>Gallagher Group</string>
+	<string>In2things Automation Pvt. Ltd.</string>
+	<string>SYSDEV Srl</string>
+	<string>Vonkil Technologies Ltd</string>
+	<string>Wynd Technologies, Inc.</string>
+	<string>CONTRINEX S.A.</string>
+	<string>MIRA, Inc.</string>
+	<string>Watteam Ltd</string>
+	<string>Density Inc.</string>
+	<string>IOT Pot India Private Limited</string>
+	<string>Sigma Connectivity AB</string>
+	<string>PEG PEREGO SPA</string>
+	<string>Wyzelink Systems Inc.</string>
+	<string>Yota Devices LTD</string>
+	<string>FINSECUR</string>
+	<string>Zen-Me Labs Ltd</string>
+	<string>3IWare Co., Ltd.</string>
+	<string>EnOcean GmbH</string>
+	<string>Instabeat, Inc</string>
+	<string>Nima Labs</string>
+	<string>Andreas Stihl AG &amp; Co. KG</string>
+	<string>Nathan Rhoades LLC</string>
+	<string>Grob Technologies, LLC</string>
+	<string>Actions (Zhuhai) Technology Co., Limited</string>
+	<string>SPD Development Company Ltd</string>
+	<string>Sensoan Oy</string>
+	<string>Qualcomm Life Inc</string>
+	<string>Chip-ing AG</string>
+	<string>ffly4u</string>
+	<string>IoT Instruments Oy</string>
+	<string>TRUE Fitness Technology</string>
+	<string>Reiner Kartengeraete GmbH &amp; Co. KG.</string>
+	<string>SHENZHEN LEMONJOY TECHNOLOGY CO., LTD.</string>
+	<string>Hello Inc.</string>
+	<string>Evollve Inc.</string>
+	<string>Jigowatts Inc.</string>
+	<string>BASIC MICRO.COM,INC.</string>
+	<string>CUBE TECHNOLOGIES</string>
+	<string>foolography GmbH</string>
+	<string>CLINK</string>
+	<string>Hestan Smart Cooking Inc.</string>
+	<string>WindowMaster A/S</string>
+	<string>Flowscape AB</string>
+	<string>PAL Technologies Ltd</string>
+	<string>WHERE, Inc.</string>
+	<string>Iton Technology Corp.</string>
+	<string>Owl Labs Inc.</string>
+	<string>Rockford Corp.</string>
+	<string>Becon Technologies Co.,Ltd.</string>
+	<string>Vyassoft Technologies Inc</string>
+	<string>Nox Medical</string>
+	<string>Kimberly-Clark</string>
+	<string>Trimble Navigation Ltd.</string>
+	<string>Littelfuse</string>
+	<string>Withings</string>
+	<string>i-developer IT Beratung UG</string>
+</array>
+</plist>

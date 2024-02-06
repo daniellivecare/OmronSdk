@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1800</key>
+	<string>Generic Access</string>
+	<key>1801</key>
+	<string>Generic Attribute</string>
+	<key>1802</key>
+	<string>Immediate Alert</string>
+	<key>1803</key>
+	<string>Link Loss</string>
+	<key>1804</key>
+	<string>Tx Power</string>
+	<key>1805</key>
+	<string>Current Time Service</string>
+	<key>1806</key>
+	<string>Reference Time Update Service</string>
+	<key>1807</key>
+	<string>Next DST Change Service</string>
+	<key>1808</key>
+	<string>Glucose</string>
+	<key>1809</key>
+	<string>Health Thermometer</string>
+	<key>180A</key>
+	<string>Device Information</string>
+	<key>180D</key>
+	<string>Heart Rate</string>
+	<key>180E</key>
+	<string>Phone Alert Status Service</string>
+	<key>180F</key>
+	<string>Battery Service</string>
+	<key>1810</key>
+	<string>Blood Pressure</string>
+	<key>1811</key>
+	<string>Alert Notification Service</string>
+	<key>1812</key>
+	<string>Human Interface Device</string>
+	<key>1813</key>
+	<string>Scan Parameters</string>
+	<key>1814</key>
+	<string>Running Speed and Cadence</string>
+	<key>1815</key>
+	<string>Automation IO</string>
+	<key>1816</key>
+	<string>Cycling Speed and Cadence</string>
+	<key>1818</key>
+	<string>Cycling Power</string>
+	<key>1819</key>
+	<string>Location and Navigation</string>
+	<key>181A</key>
+	<string>Environmental Sensing</string>
+	<key>181B</key>
+	<string>Body Composition</string>
+	<key>181C</key>
+	<string>User Data</string>
+	<key>181D</key>
+	<string>Weight Scale</string>
+	<key>181E</key>
+	<string>Bond Management</string>
+	<key>181F</key>
+	<string>Continuous Glucose Monitoring</string>
+	<key>1820</key>
+	<string>Internet Protocol Support</string>
+	<key>1821</key>
+	<string>Indoor Positioning</string>
+	<key>1822</key>
+	<string>Pulse Oximeter</string>
+	<key>1823</key>
+	<string>HTTP Proxy</string>
+	<key>1824</key>
+	<string>Transport Discovery</string>
+	<key>1825</key>
+	<string>Object Transfer</string>
+	<key>1826</key>
+	<string>Fitness Machine</string>
+	<key>2700</key>
+	<string>Unitless</string>
+	<key>2701</key>
+	<string>Length(metre)</string>
+	<key>2702</key>
+	<string>Mass(kilogram)</string>
+	<key>2703</key>
+	<string>Time(second)</string>
+	<key>2704</key>
+	<string>Electric Current(ampere)</string>
+	<key>2705</key>
+	<string>Thermodynamic Temperature(kelvin)</string>
+	<key>2706</key>
+	<string>Amount of Substance(mole)</string>
+	<key>2707</key>
+	<string>Luminous Intensity(candela)</string>
+	<key>2710</key>
+	<string>Area(square metres)</string>
+	<key>2711</key>
+	<string>Volume(cubic metres)</string>
+	<key>2712</key>
+	<string>Velocity(metres per second)</string>
+	<key>2713</key>
+	<string>Acceleration(metres per second squared)</string>
+	<key>2714</key>
+	<string>Wavenumber(reciprocal metre)</string>
+	<key>2715</key>
+	<string>Density(kilogram per cubic metre)</string>
+	<key>2716</key>
+	<string>Surface Density(kilogram per square metre)</string>
+	<key>2717</key>
+	<string>Specific Volume(cubic metre per kilogram)</string>
+	<key>2718</key>
+	<string>Current Density(ampere per square metre)</string>
+	<key>2719</key>
+	<string>Magnetic Field Strength(ampere per metre)</string>
+	<key>271A</key>
+	<string>Amount Concentration(mole per cubic metre)</string>
+	<key>271B</key>
+	<string>Mass Concentration(kilogram per cubic metre)</string>
+	<key>271C</key>
+	<string>Luminance(candela per square metre)</string>
+	<key>271D</key>
+	<string>Refractive Index</string>
+	<key>271E</key>
+	<string>Relative Permeability</string>
+	<key>2720</key>
+	<string>Plane Angle(radian)</string>
+	<key>2721</key>
+	<string>Solid Angle(steradian)</string>
+	<key>2722</key>
+	<string>Frequency(hertz)</string>
+	<key>2723</key>
+	<string>Force(newton)</string>
+	<key>2724</key>
+	<string>Pressure(pascal)</string>
+	<key>2725</key>
+	<string>Energy(joule)</string>
+	<key>2726</key>
+	<string>Power(watt)</string>
+	<key>2727</key>
+	<string>Electric Charge(coulomb)</string>
+	<key>2728</key>
+	<string>Electric Potential Difference(volt)</string>
+	<key>2729</key>
+	<string>Capacitance(farad)</string>
+	<key>272A</key>
+	<string>Electric Resistance(ohm)</string>
+	<key>272B</key>
+	<string>Electric Conductance(siemens)</string>
+	<key>272C</key>
+	<string>Magnetic Flux(weber)</string>
+	<key>272D</key>
+	<string>Magnetic Flux Density(tesla)</string>
+	<key>272E</key>
+	<string>Inductance(henry)</string>
+	<key>272F</key>
+	<string>Celsius Temperature(degree Celsius)</string>
+	<key>2730</key>
+	<string>Luminous Flux(lumen)</string>
+	<key>2731</key>
+	<string>Illuminance(lux)</string>
+	<key>2732</key>
+	<string>Activity Referred to a Radionuclide(becquerel)</string>
+	<key>2733</key>
+	<string>Absorbed Dose(gray)</string>
+	<key>2734</key>
+	<string>Dose Equivalent(sievert)</string>
+	<key>2735</key>
+	<string>Catalytic Activity(katal)</string>
+	<key>2740</key>
+	<string>Dynamic Viscosity(pascal second)</string>
+	<key>2741</key>
+	<string>Moment of Force(newton metre)</string>
+	<key>2742</key>
+	<string>Surface Tension(newton per metre)</string>
+	<key>2743</key>
+	<string>Angular Velocity(radian per second)</string>
+	<key>2744</key>
+	<string>Angular Acceleration(radian per second squared)</string>
+	<key>2745</key>
+	<string>Heat Flux Density(watt per square metre)</string>
+	<key>2746</key>
+	<string>Heat Capacity(joule per kelvin)</string>
+	<key>2747</key>
+	<string>Specific Heat Capacity(joule per kilogram kelvin)</string>
+	<key>2748</key>
+	<string>Specific Energy(joule per kilogram)</string>
+	<key>2749</key>
+	<string>Thermal Conductivity(watt per metre kelvin)</string>
+	<key>274A</key>
+	<string>Energy Density(joule per cubic metre)</string>
+	<key>274B</key>
+	<string>Electric Field Strength(volt per metre)</string>
+	<key>274C</key>
+	<string>Electric Charge Density(coulomb per cubic metre)</string>
+	<key>274D</key>
+	<string>Surface Charge Density(coulomb per square metre)</string>
+	<key>274E</key>
+	<string>Electric Flux Density(coulomb per square metre)</string>
+	<key>274F</key>
+	<string>Permittivity(farad per metre)</string>
+	<key>2750</key>
+	<string>Permeability(henry per metre)</string>
+	<key>2751</key>
+	<string>Molar Energy(joule per mole)</string>
+	<key>2752</key>
+	<string>Molar Entropy(joule per mole kelvin)</string>
+	<key>2753</key>
+	<string>Exposure(coulomb per kilogram)</string>
+	<key>2754</key>
+	<string>Absorbed Dose Rate(gray per second)</string>
+	<key>2755</key>
+	<string>Radiant Intensity(watt per steradian)</string>
+	<key>2756</key>
+	<string>Radiance(watt per square metre steradian)</string>
+	<key>2757</key>
+	<string>Catalytic Activity Concentration(katal per cubic metre)</string>
+	<key>2760</key>
+	<string>Time(minute)</string>
+	<key>2761</key>
+	<string>Time(hour)</string>
+	<key>2762</key>
+	<string>Time(day)</string>
+	<key>2763</key>
+	<string>Plane Angle(degree)</string>
+	<key>2764</key>
+	<string>Plane Angle(minute)</string>
+	<key>2765</key>
+	<string>Plane Angle(second)</string>
+	<key>2766</key>
+	<string>Area(hectare)</string>
+	<key>2767</key>
+	<string>Volume(litre)</string>
+	<key>2768</key>
+	<string>Mass(tonne)</string>
+	<key>2780</key>
+	<string>Pressure(bar)</string>
+	<key>2781</key>
+	<string>Pressure(millimetre of mercury)</string>
+	<key>2782</key>
+	<string>Length(ngstrm)</string>
+	<key>2783</key>
+	<string>Length(nautical mile)</string>
+	<key>2784</key>
+	<string>Area(barn)</string>
+	<key>2785</key>
+	<string>Velocity(knot)</string>
+	<key>2786</key>
+	<string>Logarithmic Radio Quantity(neper)</string>
+	<key>2787</key>
+	<string>Logarithmic Radio Quantity(bel)</string>
+	<key>27A0</key>
+	<string>Length(yard)</string>
+	<key>27A1</key>
+	<string>Length(parsec)</string>
+	<key>27A2</key>
+	<string>Length(inch)</string>
+	<key>27A3</key>
+	<string>Length(foot)</string>
+	<key>27A4</key>
+	<string>Length(mile)</string>
+	<key>27A5</key>
+	<string>Pressure(pound-force per square inch)</string>
+	<key>27A6</key>
+	<string>Velocity(kilometre per hour)</string>
+	<key>27A7</key>
+	<string>Velocity(mile per hour)</string>
+	<key>27A8</key>
+	<string>Angular Velocity(revolution per minute)</string>
+	<key>27A9</key>
+	<string>Energy(gram calorie)</string>
+	<key>27AA</key>
+	<string>Energy(kilogram calorie)</string>
+	<key>27AB</key>
+	<string>Energy(kilowatt hour)</string>
+	<key>27AC</key>
+	<string>Thermodynamic Temperature(degree Fahrenheit)</string>
+	<key>27AD</key>
+	<string>Percentage</string>
+	<key>27AE</key>
+	<string>Per Mille</string>
+	<key>27AF</key>
+	<string>Period(beats per minute)</string>
+	<key>27B0</key>
+	<string>Electric Charge(ampere hours)</string>
+	<key>27B1</key>
+	<string>Mass Density(milligram per decilitre)</string>
+	<key>27B2</key>
+	<string>Mass Density(millimole per litre)</string>
+	<key>27B3</key>
+	<string>Time(year)</string>
+	<key>27B4</key>
+	<string>Time(month)</string>
+	<key>27B5</key>
+	<string>Concentration(count per cubic metre)</string>
+	<key>27B6</key>
+	<string>Irradiance(watt per square metre)</string>
+	<key>27B7</key>
+	<string>Milliliter(per kilogram per minute)</string>
+	<key>27B8</key>
+	<string>Mass(pound)</string>
+	<key>2800</key>
+	<string>GATT Primary Service Declaration</string>
+	<key>2801</key>
+	<string>GATT Secondary Service Declaration</string>
+	<key>2802</key>
+	<string>GATT Include Declaration</string>
+	<key>2803</key>
+	<string>GATT Characteristic Declaration</string>
+	<key>2900</key>
+	<string>Characteristic Extended Properties</string>
+	<key>2901</key>
+	<string>Characteristic User Description</string>
+	<key>2902</key>
+	<string>Client Characteristic Configuration</string>
+	<key>2903</key>
+	<string>Server Characteristic Configuration</string>
+	<key>2904</key>
+	<string>Characteristic Presentation Format</string>
+	<key>2905</key>
+	<string>Characteristic Aggregate Format</string>
+	<key>2906</key>
+	<string>Valid Range</string>
+	<key>2907</key>
+	<string>External Report Reference</string>
+	<key>2908</key>
+	<string>Report Reference</string>
+	<key>2909</key>
+	<string>Number of Digitals</string>
+	<key>290A</key>
+	<string>Value Trigger Setting</string>
+	<key>290B</key>
+	<string>Environmental Sensing Configuration</string>
+	<key>290C</key>
+	<string>Environmental Sensing Measurement</string>
+	<key>290D</key>
+	<string>Environmental Sensing Trigger Setting</string>
+	<key>290E</key>
+	<string>Time Trigger Setting</string>
+	<key>2A00</key>
+	<string>Device Name</string>
+	<key>2A01</key>
+	<string>Appearance</string>
+	<key>2A02</key>
+	<string>Peripheral Privacy Flag</string>
+	<key>2A03</key>
+	<string>Reconnection Address</string>
+	<key>2A04</key>
+	<string>Peripheral Preferred Connection Parameters</string>
+	<key>2A05</key>
+	<string>Service Changed</string>
+	<key>2A06</key>
+	<string>Alert Level</string>
+	<key>2A07</key>
+	<string>Tx Power Level</string>
+	<key>2A08</key>
+	<string>Date Time</string>
+	<key>2A09</key>
+	<string>Day of Week</string>
+	<key>2A0A</key>
+	<string>Day Date Time</string>
+	<key>2A0C</key>
+	<string>Exact Time 256</string>
+	<key>2A0D</key>
+	<string>DST Offset</string>
+	<key>2A0E</key>
+	<string>Time Zone</string>
+	<key>2A0F</key>
+	<string>Local Time Information</string>
+	<key>2A11</key>
+	<string>Time with DST</string>
+	<key>2A12</key>
+	<string>Time Accuracy</string>
+	<key>2A13</key>
+	<string>Time Source</string>
+	<key>2A14</key>
+	<string>Reference Time Information</string>
+	<key>2A16</key>
+	<string>Time Update Control Point</string>
+	<key>2A17</key>
+	<string>Time Update State</string>
+	<key>2A18</key>
+	<string>Glucose Measurement</string>
+	<key>2A19</key>
+	<string>Battery Level</string>
+	<key>2A1C</key>
+	<string>Temperature Measurement</string>
+	<key>2A1D</key>
+	<string>Temperature Type</string>
+	<key>2A1E</key>
+	<string>Intermediate Temperature</string>
+	<key>2A21</key>
+	<string>Measurement Interval</string>
+	<key>2A22</key>
+	<string>Boot Keyboard Input Report</string>
+	<key>2A23</key>
+	<string>System ID</string>
+	<key>2A24</key>
+	<string>Model Number String</string>
+	<key>2A25</key>
+	<string>Serial Number String</string>
+	<key>2A26</key>
+	<string>Firmware Revision String</string>
+	<key>2A27</key>
+	<string>Hardware Revision String</string>
+	<key>2A28</key>
+	<string>Software Revision String</string>
+	<key>2A29</key>
+	<string>Manufacturer Name String</string>
+	<key>2A2A</key>
+	<string>IEEE 11073-20601 Regulatory Certification Data List</string>
+	<key>2A2B</key>
+	<string>Current Time</string>
+	<key>2A2C</key>
+	<string>Magnetic Declination</string>
+	<key>2A31</key>
+	<string>Scan Refresh</string>
+	<key>2A32</key>
+	<string>Boot Keyboard Output Report</string>
+	<key>2A33</key>
+	<string>Boot Mouse Input Report</string>
+	<key>2A34</key>
+	<string>Glucose Measurement Context</string>
+	<key>2A35</key>
+	<string>Blood Pressure Measurement</string>
+	<key>2A36</key>
+	<string>Intermediate Cuff Pressure</string>
+	<key>2A37</key>
+	<string>Heart Rate Measurement</string>
+	<key>2A38</key>
+	<string>Body Sensor Location</string>
+	<key>2A39</key>
+	<string>Heart Rate Control Point</string>
+	<key>2A3F</key>
+	<string>Alert Status</string>
+	<key>2A40</key>
+	<string>Ringer Control Point</string>
+	<key>2A41</key>
+	<string>Ringer Setting</string>
+	<key>2A42</key>
+	<string>Alert Category ID Bit Mask</string>
+	<key>2A43</key>
+	<string>Alert Category ID</string>
+	<key>2A44</key>
+	<string>Alert Notification Control Point</string>
+	<key>2A45</key>
+	<string>Unread Alert Status</string>
+	<key>2A46</key>
+	<string>New Alert</string>
+	<key>2A47</key>
+	<string>Supported New Alert Category</string>
+	<key>2A48</key>
+	<string>Supported Unread Alert Category</string>
+	<key>2A49</key>
+	<string>Blood Pressure Feature</string>
+	<key>2A4A</key>
+	<string>HID Information</string>
+	<key>2A4B</key>
+	<string>Report Map</string>
+	<key>2A4C</key>
+	<string>HID Control Point</string>
+	<key>2A4D</key>
+	<string>Report</string>
+	<key>2A4E</key>
+	<string>Protocol Mode</string>
+	<key>2A4F</key>
+	<string>Scan Interval Window</string>
+	<key>2A50</key>
+	<string>PnP ID</string>
+	<key>2A51</key>
+	<string>Glucose Feature</string>
+	<key>2A52</key>
+	<string>Record Access Control Point</string>
+	<key>2A53</key>
+	<string>RSC Measurement</string>
+	<key>2A54</key>
+	<string>RSC Feature</string>
+	<key>2A55</key>
+	<string>SC Control Point</string>
+	<key>2A56</key>
+	<string>Digital</string>
+	<key>2A58</key>
+	<string>Analog</string>
+	<key>2A5A</key>
+	<string>Aggregate</string>
+	<key>2A5B</key>
+	<string>CSC Measurement</string>
+	<key>2A5C</key>
+	<string>CSC Feature</string>
+	<key>2A5D</key>
+	<string>Sensor Location</string>
+	<key>2A5E</key>
+	<string>PLX Spot-Check Measurement</string>
+	<key>2A5F</key>
+	<string>PLX Continuous Measurement</string>
+	<key>2A60</key>
+	<string>PLX Features</string>
+	<key>2A63</key>
+	<string>Cycling Power Measurement</string>
+	<key>2A64</key>
+	<string>Cycling Power Vector</string>
+	<key>2A65</key>
+	<string>Cycling Power Feature</string>
+	<key>2A66</key>
+	<string>Cycling Power Control Point</string>
+	<key>2A67</key>
+	<string>Location and Speed</string>
+	<key>2A68</key>
+	<string>Navigation</string>
+	<key>2A69</key>
+	<string>Position Quality</string>
+	<key>2A6A</key>
+	<string>LN Feature</string>
+	<key>2A6B</key>
+	<string>LN Control Point</string>
+	<key>2A6C</key>
+	<string>Elevation</string>
+	<key>2A6D</key>
+	<string>Pressure</string>
+	<key>2A6E</key>
+	<string>Temperature</string>
+	<key>2A6F</key>
+	<string>Humidity</string>
+	<key>2A70</key>
+	<string>True Wind Speed</string>
+	<key>2A71</key>
+	<string>True Wind Direction</string>
+	<key>2A72</key>
+	<string>Apparent Wind Speed</string>
+	<key>2A73</key>
+	<string>Apparent Wind Direction</string>
+	<key>2A74</key>
+	<string>Gust Factor</string>
+	<key>2A75</key>
+	<string>Pollen Concentration</string>
+	<key>2A76</key>
+	<string>UV Index</string>
+	<key>2A77</key>
+	<string>Irradiance</string>
+	<key>2A78</key>
+	<string>Rainfall</string>
+	<key>2A79</key>
+	<string>Wind Chill</string>
+	<key>2A7A</key>
+	<string>Heat Index</string>
+	<key>2A7B</key>
+	<string>Dew Point</string>
+	<key>2A7D</key>
+	<string>Descriptor Value Changed</string>
+	<key>2A7E</key>
+	<string>Aerobic Heart Rate Lower Limit</string>
+	<key>2A7F</key>
+	<string>Aerobic Threshold</string>
+	<key>2A80</key>
+	<string>Age</string>
+	<key>2A81</key>
+	<string>Anaerobic Heart Rate Lower Limit</string>
+	<key>2A82</key>
+	<string>Anaerobic Heart Rate Upper Limit</string>
+	<key>2A83</key>
+	<string>Anaerobic Threshold</string>
+	<key>2A84</key>
+	<string>Aerobic Heart Rate Upper Limit</string>
+	<key>2A85</key>
+	<string>Date of Birth</string>
+	<key>2A86</key>
+	<string>Date of Threshold Assessment</string>
+	<key>2A87</key>
+	<string>Email Address</string>
+	<key>2A88</key>
+	<string>Fat Burn Heart Rate Lower Limit</string>
+	<key>2A89</key>
+	<string>Fat Burn Heart Rate Upper Limit</string>
+	<key>2A8A</key>
+	<string>First Name</string>
+	<key>2A8B</key>
+	<string>Five Zone Heart Rate Limits</string>
+	<key>2A8C</key>
+	<string>Gender</string>
+	<key>2A8D</key>
+	<string>Heart Rate Max</string>
+	<key>2A8E</key>
+	<string>Height</string>
+	<key>2A8F</key>
+	<string>Hip Circumference</string>
+	<key>2A90</key>
+	<string>Last Name</string>
+	<key>2A91</key>
+	<string>Maximum Recommended Heart Rate</string>
+	<key>2A92</key>
+	<string>Resting Heart Rate</string>
+	<key>2A93</key>
+	<string>Sport Type for Aerobic and Anaerobic Thresholds</string>
+	<key>2A94</key>
+	<string>Three Zone Heart Rate Limits</string>
+	<key>2A95</key>
+	<string>Two Zone Heart Rate Limit</string>
+	<key>2A96</key>
+	<string>VO2 Max</string>
+	<key>2A97</key>
+	<string>Waist Circumference</string>
+	<key>2A98</key>
+	<string>Weight</string>
+	<key>2A99</key>
+	<string>Database Change Increment</string>
+	<key>2A9A</key>
+	<string>User Index</string>
+	<key>2A9B</key>
+	<string>Body Composition Feature</string>
+	<key>2A9C</key>
+	<string>Body Composition Measurement</string>
+	<key>2A9D</key>
+	<string>Weight Measurement</string>
+	<key>2A9E</key>
+	<string>Weight Scale Feature</string>
+	<key>2A9F</key>
+	<string>User Control Point</string>
+	<key>2AA0</key>
+	<string>Magnetic Flux Density - 2D</string>
+	<key>2AA1</key>
+	<string>Magnetic Flux Density - 3D</string>
+	<key>2AA2</key>
+	<string>Language</string>
+	<key>2AA3</key>
+	<string>Barometric Pressure Trend</string>
+	<key>2AA4</key>
+	<string>Bond Management Control Point</string>
+	<key>2AA5</key>
+	<string>Bond Management Feature</string>
+	<key>2AA6</key>
+	<string>Central Address Resolution</string>
+	<key>2AA7</key>
+	<string>CGM Measurement</string>
+	<key>2AA8</key>
+	<string>CGM Feature</string>
+	<key>2AA9</key>
+	<string>CGM Status</string>
+	<key>2AAA</key>
+	<string>CGM Session Start Time</string>
+	<key>2AAB</key>
+	<string>CGM Session Run Time</string>
+	<key>2AAC</key>
+	<string>CGM Specific Ops Control Point</string>
+	<key>2AAD</key>
+	<string>Indoor Positioning Configuration</string>
+	<key>2AAE</key>
+	<string>Latitude</string>
+	<key>2AAF</key>
+	<string>Longitude</string>
+	<key>2AB0</key>
+	<string>Local North Coordinate</string>
+	<key>2AB1</key>
+	<string>Local East Coordinate</string>
+	<key>2AB2</key>
+	<string>Floor Number</string>
+	<key>2AB3</key>
+	<string>Altitude</string>
+	<key>2AB4</key>
+	<string>Uncertainty</string>
+	<key>2AB5</key>
+	<string>Location Name</string>
+	<key>2AB6</key>
+	<string>URI</string>
+	<key>2AB7</key>
+	<string>HTTP Headers</string>
+	<key>2AB8</key>
+	<string>HTTP Status Code</string>
+	<key>2AB9</key>
+	<string>HTTP Entity Body</string>
+	<key>2ABA</key>
+	<string>HTTP Control Point</string>
+	<key>2ABB</key>
+	<string>HTTPS Security</string>
+	<key>2ABC</key>
+	<string>TDS Control Point</string>
+	<key>2ABD</key>
+	<string>OTS Feature</string>
+	<key>2ABE</key>
+	<string>Object Name</string>
+	<key>2ABF</key>
+	<string>Object Type</string>
+	<key>2AC0</key>
+	<string>Object Size</string>
+	<key>2AC1</key>
+	<string>Object First-Created</string>
+	<key>2AC2</key>
+	<string>Object Last-Modified</string>
+	<key>2AC3</key>
+	<string>Object ID</string>
+	<key>2AC4</key>
+	<string>Object Properties</string>
+	<key>2AC5</key>
+	<string>Object Action Control Point</string>
+	<key>2AC6</key>
+	<string>Object List Control Point</string>
+	<key>2AC7</key>
+	<string>Object List Filter</string>
+	<key>2AC8</key>
+	<string>Object Changed</string>
+	<key>2AC9</key>
+	<string>Resolvable Private Address Only</string>
+	<key>2ACC</key>
+	<string>Fitness Machine Feature</string>
+	<key>2ACD</key>
+	<string>Treadmill Data</string>
+	<key>2ACE</key>
+	<string>Cross Trainer Data</string>
+	<key>2ACF</key>
+	<string>Step Climber Data</string>
+	<key>2AD0</key>
+	<string>Stair Climber Data</string>
+	<key>2AD1</key>
+	<string>Rower Data</string>
+	<key>2AD2</key>
+	<string>Indoor Bike Data</string>
+	<key>2AD3</key>
+	<string>Training Status</string>
+	<key>2AD4</key>
+	<string>Supported Speed Range</string>
+	<key>2AD5</key>
+	<string>Supported Inclination Range</string>
+	<key>2AD6</key>
+	<string>Supported Resistance Level Range</string>
+	<key>2AD7</key>
+	<string>Supported Heart Rate Range</string>
+	<key>2AD8</key>
+	<string>Supported Power Range</string>
+	<key>2AD9</key>
+	<string>Fitness Machine Control Point</string>
+	<key>2ADA</key>
+	<string>Fitness Machine Status</string>
+	<key>5DF5E817-A945-4F81-89C0-3D4E9759C07C</key>
+	<string>Omron Option Service</string>
+	<key>6E400001-B5A3-F393-EFA9-E50E24DCCA9E</key>
+	<string>Omron Custom PLX Service</string>
+	<key>8FF2DDFB-4A52-4CE5-85A4-D2F97917792A</key>
+	<string>OHQ Body Composition Measurement</string>
+	<key>6E4000F0-B5A3-F393-EFA9-E50E24DCCA9E</key>
+	<string>Omron Custom PLX Features</string>
+	<key>6E4000F1-B5A3-F393-EFA9-E50E24DCCA9E</key>
+	<string>Omron Custom PLX SpotCheckMeasurement</string>
+	<key>6E4000F3-B5A3-F393-EFA9-E50E24DCCA9E</key>
+	<string>Omron Custom PLX RACP</string>
+</dict>
+</plist>

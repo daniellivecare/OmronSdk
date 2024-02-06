@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="19H114" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Device" representedClassName="BSODeviceEntity" syncable="YES">
+        <attribute name="consentCode" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformerName" customClassName="NSNumber"/>
+        <attribute name="databaseChangeIncrement" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformerName" customClassName="NSNumber"/>
+        <attribute name="databaseUpdateFlag" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformerName" customClassName="NSNumber"/>
+        <attribute name="deviceCategory" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" customClassName="NSNumber"/>
+        <attribute name="identifier" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformerName" customClassName="NSUUID"/>
+        <attribute name="lastSequenceNumber" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformerName" customClassName="NSNumber"/>
+        <attribute name="localName" optional="YES" attributeType="String"/>
+        <attribute name="modelName" optional="YES" attributeType="String"/>
+        <attribute name="protocol" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" customClassName="NSNumber"/>
+        <attribute name="userIndex" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformerName" customClassName="NSNumber"/>
+        <relationship name="user" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="registeredDevices" inverseEntity="User"/>
+    </entity>
+    <entity name="History" representedClassName="BSOHistoryEntity" syncable="YES">
+        <attribute name="batteryLevel" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformerName" customClassName="NSNumber"/>
+        <attribute name="completionDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="consentCode" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformerName" customClassName="NSNumber"/>
+        <attribute name="deviceCategory" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" customClassName="NSNumber"/>
+        <attribute name="deviceTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="identifier" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformerName" customClassName="NSUUID"/>
+        <attribute name="localName" optional="YES" attributeType="String"/>
+        <attribute name="log" optional="YES" attributeType="String"/>
+        <attribute name="logHeader" optional="YES" attributeType="String"/>
+        <attribute name="measurementRecords" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformerName" customClassName="NSArray"/>
+        <attribute name="modelName" optional="YES" attributeType="String"/>
+        <attribute name="operation" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="protocol" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" customClassName="NSNumber"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="userData" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformerName" customClassName="NSDictionary"/>
+        <attribute name="userIndex" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformerName" customClassName="NSNumber"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="User" representedClassName="BSOUserEntity" syncable="YES">
+        <attribute name="dateOfBirth" attributeType="String"/>
+        <attribute name="gender" attributeType="String" customClassName="OHQGender"/>
+        <attribute name="height" attributeType="Transformable" valueTransformerName="" customClassName="NSNumber"/>
+        <attribute name="name" attributeType="String"/>
+        <relationship name="registeredDevices" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Device" inverseName="user" inverseEntity="Device"/>
+    </entity>
+    <elements>
+        <element name="Device" positionX="-351" positionY="-147" width="137" height="28"/>
+        <element name="History" positionX="-441" positionY="-27" width="128" height="298"/>
+        <element name="User" positionX="-551" positionY="-93" width="128" height="120"/>
+    </elements>
+</model>
