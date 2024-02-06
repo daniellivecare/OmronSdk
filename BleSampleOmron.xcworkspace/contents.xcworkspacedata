@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../../OmronSdkSnew">
-   </FileRef>
-   <FileRef
       location = "group:BleSampleOmron.xcodeproj">
    </FileRef>
    <FileRef
