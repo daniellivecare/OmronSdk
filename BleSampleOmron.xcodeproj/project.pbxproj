@@ -11,6 +11,7 @@
 		24F15349267B199000DAA501 /* BSOThermometerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F15347267B199000DAA501 /* BSOThermometerCollectionViewCell.xib */; };
 		24F1534C267B1A1E00DAA501 /* BSOThermometerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F1534A267B1A1D00DAA501 /* BSOThermometerCollectionViewCell.m */; };
 		65C28C5C2B07E80E00E118AE /* ZipArchive in Frameworks */ = {isa = PBXBuildFile; productRef = 65C28C5B2B07E80E00E118AE /* ZipArchive */; };
+		65EEA6782B72AB14004E8DEE /* OmronSdkSnew in Frameworks */ = {isa = PBXBuildFile; productRef = 65EEA6772B72AB14004E8DEE /* OmronSdkSnew */; };
 		761EE9B225B902E10046AC39 /* BSOHistoryEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 761EE9B025B902E10046AC39 /* BSOHistoryEntity+CoreDataProperties.m */; };
 		7660322C25AFE0ED002D123F /* BSOPulseOximeterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7660322A25AFE0ED002D123F /* BSOPulseOximeterCollectionViewCell.m */; };
 		76B363A425AD588200002188 /* BSOLogZipUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B363A325AD588200002188 /* BSOLogZipUtils.m */; };
@@ -98,7 +99,7 @@
 		56094A886BE6C0649EFDF557 /* Pods-BleSampleOmron.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BleSampleOmron.release.xcconfig"; path = "Target Support Files/Pods-BleSampleOmron/Pods-BleSampleOmron.release.xcconfig"; sourceTree = "<group>"; };
 		5EDD8D96E6F6774CF211B524 /* Pods_BleSampleOmron.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BleSampleOmron.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65EEA6742B72A5E0004E8DEE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		65EEA6762B72A8DF004E8DEE /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		65EEA6792B72AB81004E8DEE /* BleSampleOmron-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BleSampleOmron-Bridging-Header.h"; sourceTree = "<group>"; };
 		761EE9AA25B901480046AC39 /* BleSampleOmron 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "BleSampleOmron 2.xcdatamodel"; sourceTree = "<group>"; };
 		761EE9B025B902E10046AC39 /* BSOHistoryEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BSOHistoryEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
 		761EE9B125B902E10046AC39 /* BSOHistoryEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BSOHistoryEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
@@ -247,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD59CBFA56CBC01EDBF1654E /* Pods_BleSampleOmron.framework in Frameworks */,
+				65EEA6782B72AB14004E8DEE /* OmronSdkSnew in Frameworks */,
 				65C28C5C2B07E80E00E118AE /* ZipArchive in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +261,7 @@
 			children = (
 				76B363A225AD588200002188 /* BSOLogZipUtils.h */,
 				76B363A325AD588200002188 /* BSOLogZipUtils.m */,
+				65EEA6792B72AB81004E8DEE /* BleSampleOmron-Bridging-Header.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -445,7 +448,6 @@
 		E2ACC8BC1DB0971100D3601F = {
 			isa = PBXGroup;
 			children = (
-				65EEA6762B72A8DF004E8DEE /* Package.swift */,
 				65EEA6742B72A5E0004E8DEE /* README.md */,
 				E2ACC8C71DB0971100D3601F /* BleSampleOmron */,
 				E22150AE1F29BA5200531832 /* OHQReferenceCode */,
@@ -587,6 +589,7 @@
 			name = BleSampleOmron;
 			packageProductDependencies = (
 				65C28C5B2B07E80E00E118AE /* ZipArchive */,
+				65EEA6772B72AB14004E8DEE /* OmronSdkSnew */,
 			);
 			productName = BleSampleOmron;
 			productReference = E2ACC8C51DB0971100D3601F /* BleSampleOmron.app */;
@@ -605,6 +608,7 @@
 					E2ACC8C41DB0971100D3601F = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 8JXE7E8H32;
+						LastSwiftMigration = 1520;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -939,6 +943,7 @@
 			baseConfigurationReference = 39A80439E69006719AD4A504 /* Pods-BleSampleOmron.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4.1.4;
@@ -958,6 +963,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.omron.healthcare.sampleapps.ble.BleSampleOmron;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "BleSampleOmron/Utils/BleSampleOmron-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -966,6 +974,7 @@
 			baseConfigurationReference = 56094A886BE6C0649EFDF557 /* Pods-BleSampleOmron.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4.1.4;
@@ -985,6 +994,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ohq.global.sampleapps.ble.BleSampleOmron;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "BleSampleOmron/Utils/BleSampleOmron-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1027,6 +1038,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 65C28C542B07E40C00E118AE /* XCRemoteSwiftPackageReference "ZipArchive" */;
 			productName = ZipArchive;
+		};
+		65EEA6772B72AB14004E8DEE /* OmronSdkSnew */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OmronSdkSnew;
 		};
 /* End XCSwiftPackageProductDependency section */
 
