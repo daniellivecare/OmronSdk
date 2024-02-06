@@ -97,6 +97,7 @@
 		39A80439E69006719AD4A504 /* Pods-BleSampleOmron.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BleSampleOmron.debug.xcconfig"; path = "Target Support Files/Pods-BleSampleOmron/Pods-BleSampleOmron.debug.xcconfig"; sourceTree = "<group>"; };
 		56094A886BE6C0649EFDF557 /* Pods-BleSampleOmron.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BleSampleOmron.release.xcconfig"; path = "Target Support Files/Pods-BleSampleOmron/Pods-BleSampleOmron.release.xcconfig"; sourceTree = "<group>"; };
 		5EDD8D96E6F6774CF211B524 /* Pods_BleSampleOmron.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BleSampleOmron.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65EEA6742B72A5E0004E8DEE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		761EE9AA25B901480046AC39 /* BleSampleOmron 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "BleSampleOmron 2.xcdatamodel"; sourceTree = "<group>"; };
 		761EE9B025B902E10046AC39 /* BSOHistoryEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BSOHistoryEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
 		761EE9B125B902E10046AC39 /* BSOHistoryEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BSOHistoryEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
@@ -443,6 +444,7 @@
 		E2ACC8BC1DB0971100D3601F = {
 			isa = PBXGroup;
 			children = (
+				65EEA6742B72A5E0004E8DEE /* README.md */,
 				E2ACC8C71DB0971100D3601F /* BleSampleOmron */,
 				E22150AE1F29BA5200531832 /* OHQReferenceCode */,
 				E2ACC8C61DB0971100D3601F /* Products */,
